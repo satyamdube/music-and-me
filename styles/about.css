@@ -1,0 +1,21 @@
+.centerWrapper{
+  max-width:1280px;
+  padding:0px 15px;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+.outerMainAbout{
+  width:100%;
+  display:inline-block;
+}
+.te-img-position-v2 {
+  position: absolute;
+  width: 192px;
+  height: 354px;
+  right: 0%;
+  bottom: 1000px;
+  z-index: 1;
+}
+.outerMainAbout .common-btn.style-border .common-btn_inner{
+   color:#000 !important;
+}
