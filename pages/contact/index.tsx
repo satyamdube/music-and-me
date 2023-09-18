@@ -18,7 +18,7 @@ export default function Contact() {
                 <li className="breadcrumb-item">
                   <Link href={"/"}>Home &nbsp;</Link>
                 </li>
-                <li className="breadcrumb-item">About Us</li>
+                <li className="breadcrumb-item">Contact Us</li>
               </ul>
             </div>
             <div className="bootomArrow">
