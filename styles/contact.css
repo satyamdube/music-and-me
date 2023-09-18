@@ -11,32 +11,46 @@
 .breadcrumb-area.bnrService{
   background-image: url('/Assets/pages/breadcrumb.png');
 }
-.te-img-position-v2 {
+.bannerDataTop{
+  width:100%;
+  background-image: url('/Assets/pages/BannerHeader.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:567px;
+  position: relative;
+}
+.innerContentBnr{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top:385px;
+}
+.innerContentBnr h3{
+  color:#fff;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.breadcrumb-info ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumb-info ul li{
+  color:#fff;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  position: relative;
+  left: -4px;
+}
+.bootomArrow{
   position: absolute;
-  width: 192px;
-  height: 354px;
-  right: 0%;
-  bottom: 1000px;
-  z-index: 1;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
-.outerMainAbout .common-btn.style-border .common-btn_inner{
-   color:#000 !important;
-}
-.te-img-position{
-  position: absolute;
-  width: 192px;
-  height: 354px;
-  left: -15px;
-  bottom: -230px;
-  z-index: 1;
-}
-.contact-address-box.d-flex img{
-  width: 25px;
-  height: 18px;
-  min-width: auto;
-  margin-right: 8px;
-}
-.contact-address-box.d-flex a{
-  color:#071311;
-  text-decoration:none;
+.bootomArrow img{
+  color: transparent;
+  max-width: 300px;
+  cursor: pointer;
 }

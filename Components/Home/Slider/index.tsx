@@ -6,8 +6,6 @@ import ExampleCarouselImage from "@/public/Assets/pages/banner.png";
 export default function Slider() {
   return (
     <div className="outerMainSlider">
-      {/* <img src="images/banner.png"/> */}
-
       <Carousel>
         <Carousel.Item>
           <Image src={ExampleCarouselImage} alt="First slide" />

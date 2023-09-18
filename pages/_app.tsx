@@ -5,18 +5,14 @@ import type { AppProps } from "next/app";
 
 import Header from "@/Components/Shared/Header";
 import Footer from "@/Components/Shared/Footer";
+import Contact from "./contact";
 
 const inter = Quicksand({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={inter.className}>
-      <div
-        style={{
-          width: "100%",
-          display: "inline-block",
-        }}
-      >
+      <div>
         <Header />
       </div>
       <div
@@ -24,7 +20,8 @@ export default function App({ Component, pageProps }: AppProps) {
           width: "100%",
         }}
       >
-        <Component {...pageProps} />
+        {/* <Component {...pageProps} /> */}
+        <Contact/>
       </div>
       <div>
         <Footer />
