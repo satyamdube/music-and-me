@@ -176,13 +176,16 @@
 }
 .slideDataInfoBottom{
   width:100%;
-  display:inline-block;
+  display:flex;
   padding-bottom:40px;
 }
 .leftInfoImgData{
   width:25%;
-  padding-right:40px;
+  padding-right:25px;
   box-sizing: border-box;
+}
+.leftInfoImgData:last-child{
+  padding:0px;
 }
 .leftInfoImgData img{
   width:100%;
