@@ -85,3 +85,105 @@
   line-height: 35px;
   margin-top: 40px;
 }
+.emailInfoData{
+  width:100%;
+  display:flex;
+  align-items:center;
+  margin: 65px 0px;
+}
+.leftDataInfo{
+  width:33%;
+}
+.leftDataInfo h4{
+  text-align:center;
+  position: relative;
+  text-transform:uppercase;
+  font-weight:700;
+}
+.leftDataInfo h4:after{
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 4px;
+  background: #e6bb35;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
+.formInfoData .leftDataInfo p{
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #000;
+}
+.formDataInfo{
+  width:100%;
+  display:inline-block;
+}
+.formLabelData{
+  width:100%;
+  display:flex;
+}
+.leftFormLabelData{
+  width:33%;
+  padding-right:30px;
+}
+.leftFormLabelData:last-child{
+  padding:0px;
+}
+.leftFormLabelData label{
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-weight:600;
+}
+.leftFormLabelData input{
+  border:none;
+  border-bottom:1px solid #e6bb35;
+  width:100%;
+}
+.textArea{
+  width:100%;
+  display:inline-block;
+  margin-top:40px;
+}
+.formLabelData .textArea label{
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-weight:600;
+}
+.formLabelData .textArea textarea{
+  border:none;
+  border-bottom:1px solid #e6bb35;
+  width:100%;
+  resize:none;
+  min-height:100px;
+}
+.mapDataInfo{
+  width:100%;
+  display:inline-block;
+  padding-bottom:100px;
+}
+.mapDataInfo iframe{
+  width:100%;
+  min-height:350px;
+}
+.mapDataInfo img{
+  max-width:100%;
+  width:100%;
+}
+.slideDataInfoBottom{
+  width:100%;
+  display:inline-block;
+  padding-bottom:40px;
+}
+.leftInfoImgData{
+  width:25%;
+  padding-right:40px;
+  box-sizing: border-box;
+}
+.leftInfoImgData img{
+  width:100%;
+}
