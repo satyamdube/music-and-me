@@ -8,6 +8,7 @@ import HomeIcon from "@/public/Assets/pages/home.png";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 
 export default function Contact() {
+  
   return (
     <div className="outerMainAbout">
       <div className="bannerDataTop">

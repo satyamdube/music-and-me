@@ -27,6 +27,9 @@
   border-bottom: 1px solid #ccc;
   background:#f7f7f7;
 }
+.bottomHeader.scrolled{
+  background-color:#000;
+}
 .ulDataTopHeader{
   width:100%;
   display:inline-block;

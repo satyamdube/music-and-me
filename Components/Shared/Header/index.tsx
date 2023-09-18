@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,13 +15,18 @@ import CommanSite from "@/Constent/CommanSite";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
-
+  const [scroll, setScroll] = useState(false)
   const handlerToggle = () => setToggle((pre) => !pre);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 10)
+    })
+  }, [])
 
   return (
     <div className="outerMainInfoHeader">
       <header className="headerMain">
-        <div className="bottomHeader">
+        <div className={scroll ? "bottomHeader scrolled" : "bottomHeader"}>
           <div className="centerWrapper">
             <div className="outerBottomMenu">
               <div className="logoInfo">
