@@ -44,7 +44,7 @@
 }
 .bootomArrow{
   position: absolute;
-  bottom: 0;
+  bottom:-2px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -53,4 +53,35 @@
   color: transparent;
   max-width: 300px;
   cursor: pointer;
+}
+.formInfoData{
+  width:100%;
+  display:inline-block;
+  padding:100px 0px;
+}
+.formInfoData h3{
+  text-align: center;
+  color: #e6bb35;
+  font-weight: 600;
+  font-size:38px;
+  line-height:40px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+.formInfoData h2{
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size:44px;
+  line-height:50px;
+  letter-spacing:1px;
+  margin:28px 0px;
+  text-transform:uppercase;
+}
+.formInfoData p{
+  color: #565656;
+  font-size: 23px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 40px;
 }

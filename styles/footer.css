@@ -6,6 +6,7 @@
 }
 .outerMainFooter{
   width:100%;
+  border-top: 30px solid #e6bb35;
 }
 .subscribe-form form {
   display: -webkit-box;
