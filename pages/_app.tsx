@@ -20,8 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
           width: "100%",
         }}
       >
-        {/* <Component {...pageProps} /> */}
-        <Contact/>
+        <Component {...pageProps} />
       </div>
       <div>
         <Footer />

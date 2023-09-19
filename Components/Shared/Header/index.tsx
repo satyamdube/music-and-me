@@ -38,10 +38,10 @@ const Header = () => {
                   <Link href="/" className="active">
                     Home
                   </Link>
-                  <Link href="/about">Courses</Link>
-                  <Link href="/services">Surteerth Academy</Link>
-                  <Link href="/services">Masterclass</Link>
-                  <Link href="/services">Blogs</Link>
+                  <Link href="/courses">Courses</Link>
+                  <Link href="/">Surteerth Academy</Link>
+                  <Link href="/">Masterclass</Link>
+                  <Link href="/">Blogs</Link>
                   <Link href="/contact">Contact Us</Link>
               </div>
               <div className="socialIconInfo">

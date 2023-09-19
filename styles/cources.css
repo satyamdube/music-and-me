@@ -1,0 +1,259 @@
+.centerWrapper{
+  max-width:1280px;
+  padding:0px 15px;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+.outerMainAbout{
+  width:100%;
+  display:inline-block;
+}
+.breadcrumb-area.bnrService{
+  background-image: url('/Assets/pages/breadcrumb.png');
+}
+.bannerDataTop{
+  width:100%;
+  background-image: url('/Assets/pages/BannerHeader.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:567px;
+  position: relative;
+}
+.innerContentBnr{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top:385px;
+}
+.innerContentBnr h3{
+  color:#fff;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.breadcrumb-info ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumb-info ul li{
+  color:#fff;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  position: relative;
+  left: -4px;
+}
+.bootomArrow{
+  position: absolute;
+  bottom:-2px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.bootomArrow img{
+  color: transparent;
+  max-width: 300px;
+  cursor: pointer;
+}
+.formInfoData{
+  width:100%;
+  display:inline-block;
+  padding:100px 0px;
+}
+.formInfoData h3{
+  text-align: center;
+  color: #e6bb35;
+  font-weight: 600;
+  font-size:38px;
+  line-height:40px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+.formInfoData h2{
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size:44px;
+  line-height:50px;
+  letter-spacing:1px;
+  margin:28px 0px;
+  text-transform:uppercase;
+}
+.formInfoData p{
+  color: #565656;
+  font-size: 23px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 40px;
+}
+.emailInfoData{
+  width:100%;
+  display:flex;
+  align-items:center;
+  margin: 65px 0px;
+}
+.leftDataInfo{
+  width:33%;
+}
+.leftDataInfo h4{
+  text-align:center;
+  position: relative;
+  text-transform:uppercase;
+  font-weight:700;
+}
+.leftDataInfo h4:after{
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 4px;
+  background: #e6bb35;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
+.formInfoData .leftDataInfo p{
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #000;
+}
+.formDataInfo{
+  width:100%;
+  display:inline-block;
+}
+.formLabelData{
+  width:100%;
+  display:flex;
+}
+.leftFormLabelData{
+  width:33%;
+  padding-right:30px;
+}
+.leftFormLabelData:last-child{
+  padding:0px;
+}
+.leftFormLabelData label{
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-weight:600;
+}
+.leftFormLabelData input{
+  border:none;
+  border-bottom:1px solid #e6bb35;
+  width:100%;
+}
+.textArea{
+  width:100%;
+  display:inline-block;
+  margin-top:40px;
+}
+.formLabelData .textArea label{
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-weight:600;
+}
+.formLabelData .textArea textarea{
+  border:none;
+  border-bottom:1px solid #e6bb35;
+  width:100%;
+  resize:none;
+  min-height:100px;
+}
+.mapDataInfo{
+  width:100%;
+  display:inline-block;
+  padding-bottom:100px;
+}
+.mapDataInfo iframe{
+  width:100%;
+  min-height:350px;
+}
+.mapDataInfo img{
+  max-width:100%;
+  width:100%;
+}
+.slideDataInfoBottom{
+  width:100%;
+  display:flex;
+  padding-bottom:40px;
+}
+.leftInfoImgData{
+  width:25%;
+  padding-right:25px;
+  box-sizing: border-box;
+}
+.leftInfoImgData:last-child{
+  padding:0px;
+}
+.leftInfoImgData img{
+  width:100%;
+  height:100%;
+}
+.ourServiceBox{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.serviceCard{
+  width: 32%;
+  background:#e4bc38;
+  padding: 63px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 9.8px 9px rgba(0,0,0,.1);
+  margin-bottom: 26px;
+}
+.serviceCard h3{
+  position: relative;
+  text-align:center;
+  color:#fff;
+  font-weight:700;
+  font-size:30px;
+  text-transform:uppercase;
+}
+.formInfoData .serviceCard p{
+  color:#fff;
+  font-size:16px;
+  line-height:25px;
+  margin:30px 0px;
+  padding:0px 50px;
+}
+.serviceCard ul{
+  list-style-position: inside;
+}
+.serviceCard ul li{
+  color:#fff;
+  font-size: 16px;
+}
+.serviceCard button{
+   width: 100%;
+   background:none;
+   color:#fff;
+   position: relative;
+   margin:16px 0px 16px;
+   border:none;
+   font-size:20px;
+}
+.serviceCard button:after{
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 4px;
+  background: #fff;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
+.priceInfo{
+  padding: 25px 0px 0px;
+  border-top: 1px solid #fff;
+  margin-top: 33px;
+}
+.formInfoData .serviceCard .priceInfo p{
+  margin:0px;
+}
