@@ -257,3 +257,36 @@
 .formInfoData .serviceCard .priceInfo p{
   margin:0px;
 }
+.courceBanner{
+  width:100%;
+  background-image: url('/Assets/pages/courceBanner.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:472px;
+  position: relative;
+  margin-bottom:100px;
+}
+.innerContentCource{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top: 100px;
+}
+.innerContentCource h3{
+  text-transform:uppercase;
+  font-size:28px;
+  color:#fff;
+  line-height:30px;
+  font-weight:700;
+}
+.innerContentCource h2{
+  text-transform:uppercase;
+  font-size:35px;
+  color:#fff;
+  line-height:40px;
+  font-weight:700;
+  margin: 12px 0px;
+}
+.innerContentCource p{
+  color:#fff;
+}

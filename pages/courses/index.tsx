@@ -84,6 +84,15 @@ export default function Course() {
           </div>
         </div>
       </div>
+      <div className="courceBanner">
+         <div className="centerWrapper">
+            <div className="innerContentCource">
+               <h3>Our class</h3>
+               <h2>what our students say</h2>
+               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+         </div>
+      </div>
     </div>
   );
 }
