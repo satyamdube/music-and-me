@@ -214,3 +214,62 @@
   bottom: -13px;
   display:none;
 }
+.infoDataTimingPart{
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid #ccc;
+  padding: 40px 0px 0px;
+  text-align:center;
+}
+.uldataLi{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+.uldataLi ul{
+padding:0;
+}
+.uldataLi ul li{
+  display:inline-block;
+  width: 14%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+.uldataLi ul li .dotData {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: #e6bb35;
+    border-radius: 100%;
+}
+.infoDataTimingPart img{
+  max-width:600px;
+  margin:60px 0px 0px;
+}
+.infoDataTimingPart h5{
+  font-size:25px;
+  color:#000;
+  font-weight:600;
+  margin:30px 0px 0px;
+}
+.infoDataTimingPart h6{
+  font-size:18px;
+  color:#000;
+  font-weight:600;
+  margin-top:10px;
+}
+.infoDataTimingPart h2{
+  color:#000;
+  font-weight:600;
+  font-size:24px !important;
+  text-transform:inherit !important;
+}
+.infoDataTimingPart h2 b{
+  color:#e6bb35;
+}
+.hrdata{
+  width:50%;
+  margin:0 auto;
+  margin-top:30px;
+}

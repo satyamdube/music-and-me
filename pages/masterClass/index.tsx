@@ -6,12 +6,7 @@ import Call1Icon from "@/public/Assets/pages/call1.png";
 import Message1Icon from "@/public/Assets/pages/message1.png";
 import HomeIcon from "@/public/Assets/pages/home.png";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
-import dotData from "@/public/Assets/pages/dotData.png";
-import map from "@/public/Assets/pages/map.png";
-import slide1 from "@/public/Assets/pages/slide1.png";
-import slide2 from "@/public/Assets/pages/slide2.png";
-import slide3 from "@/public/Assets/pages/slide3.png";
-import slide4 from "@/public/Assets/pages/slide4.png";
+import VideoData from "@/public/Assets/pages/videoPlay2.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
 
@@ -50,6 +45,24 @@ export default function MasterClass() {
               <div className="leftDataInfo hide">
                  <h4>coming soon...</h4>
               </div>
+           </div>
+           <div className="infoDataTimingPart">
+             <div className="uldataLi">
+               <ul>
+                  <li><span className="dotData"></span> 6 Month</li>
+                  <li><span className="dotData"></span> Beginner</li>
+                  <li><span className="dotData"></span> 15 Lessons</li>
+                  <li><span className="dotData"></span> 100 Members</li>
+               </ul>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+               <Image src={VideoData} alt="Video"/>
+               <h5>WHat you will learn from masterclass</h5>
+               <h6>1. For Voice Flexibility</h6>
+               <h6>2. For Pitching</h6>
+               <h6>3. For Sargam/Aakar</h6>
+               <hr className="hrdata"/>
+               <h2><b>Fees: </b> Rs 3500 (Indian Students) and $200 (Out of India)</h2>
+             </div>
            </div>
          </div>
       </div>
