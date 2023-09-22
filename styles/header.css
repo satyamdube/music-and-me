@@ -112,8 +112,9 @@
 .menuRight a:hover{
   color:#e6bb35;
 }
-.menuRight a.active{
+.menuRight span.active a{
   border-bottom: 3px solid #e6bb35;
+  padding-bottom:10px;
 }
 .menuMobileView {
   display: none;
