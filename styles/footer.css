@@ -449,7 +449,6 @@
   -webkit-transition: all .5s;
   transition: all .5s;
   position: relative;
-  font-family: '__Inter_20951f', '__Inter_Fallback_20951f';
   text-decoration:none;
 }
 .cursor-follower {

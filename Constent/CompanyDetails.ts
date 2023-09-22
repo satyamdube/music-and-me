@@ -1,8 +1,8 @@
 const CompanyDetails = {
-  mobileNumber: "+91-8792191034",
-  email: "explore@blooprint.in",
+  mobileNumber: "+91-8591504800",
+  email: "support@kaushikismusicandus.com",
   address:
-    "1st Floor, KVV Samrat, Outer Ring Rd, East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka 560045",
+    "Delhi",
 };
 
 export default CompanyDetails;

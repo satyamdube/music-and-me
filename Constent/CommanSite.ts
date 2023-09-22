@@ -32,10 +32,6 @@ const CommanSite:{
       link: "/about",
     },
     {
-      name: "Our Services",
-      link: "/services",
-    },
-    {
       name: "Contact Us",
       link: "/contact",
     },
