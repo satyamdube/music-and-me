@@ -39,8 +39,8 @@ const Header = () => {
                     Home
                   </Link>
                   <Link href="/courses">Courses</Link>
-                  <Link href="/">Surteerth Academy</Link>
-                  <Link href="/">Masterclass</Link>
+                  <Link href="/surteerth">Surteerth Academy</Link>
+                  <Link href="/masterClass">Masterclass</Link>
                   <Link href="/about">About Us</Link>
                   <Link href="/contact">Contact Us</Link>
               </div>
