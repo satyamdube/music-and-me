@@ -320,3 +320,29 @@
   right: 0;
   bottom: -10px;
 }
+.sliderDataMain.video .sliderDataMainInner{
+  padding:0px;
+}
+.sliderDataMain.video .sliderDataMainInner img{
+  margin:0px !important;
+}
+.sliderDataMain.video .sliderDataMainInner h6{
+ color:#e6bb35;
+ margin:40px 0px 10px;
+ font-weight:600;
+}
+.sliderDataMain.video .sliderDataMainInner h4{
+  color:#000;
+  font-size:24px;
+  font-weight:600;
+}
+.sliderDataMain.video .sliderDataMainInner button{
+  background:none;
+  border:none;
+  color:#000;
+  font-weight:600;
+  margin-top:50px;
+  margin-bottom:80px;
+  font-size:20px;
+  font-weight:600;
+}
