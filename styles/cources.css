@@ -346,3 +346,11 @@
   font-size:20px;
   font-weight:600;
 }
+.videoPlayNew{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+.videoPlayNew img{
+max-width:800px;
+}
