@@ -390,3 +390,52 @@ max-width:800px;
   right: 0;
   bottom: -13px;
 }
+.outerInfoCnt{
+  width:100%;
+  display:inline-block;
+  padding:100px 0px 0px;
+}
+.absolute-content{
+  padding:40px;
+  width:100%;
+  box-sizing: border-box;
+}
+.absolute-content h2{
+  color:#e6bb35;
+  font-size:30px;
+  font-weight:700;
+  text-transform:uppercase;
+}
+.absolute-content  h1{
+  color:#000;
+  font-size:40px;
+  line-height:50px;
+  font-weight:800;
+  margin:20px 0px;
+  text-transform:uppercase;
+}
+.absolute-content p{
+  color:#000;
+  font-weight:600;
+  font-size:16px;
+}
+.absolute-content button{
+  background:none;
+  text-transform:uppercase;
+  font-weight:600;
+  position: relative;
+  border:none;
+  font-size:20px;
+  margin-top:30px;
+  color:#000;
+}
+.absolute-content button:after{
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 4px;
+  background: #e6bb35;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}

@@ -6,6 +6,7 @@ import slide1 from "@/public/Assets/pages/slide1.png";
 import slide2 from "@/public/Assets/pages/slide2.png";
 import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
+import music from "@/public/Assets/pages/musicHead.png";
 import CommanSite from "@/Constent/CommanSite";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import Slider from "@/Components/Home/Slider";
@@ -23,6 +24,24 @@ export default function Home() {
             <div className="bootomArrow">
               <Image src={bottomArrow} alt="Bottom Arrow"/>
             </div>
+        </div>
+      </div>
+      <div className="outerInfoCnt">
+        <div className="centerWrapper">
+        <div className="row">
+        <div className="col-sm-6">
+           <Image src={music} alt="Music"/>
+        </div>
+        <div className="col-sm-6">
+          <div className="absolute-content">
+            <h2>About Us</h2>
+            <h1>Welcome to kaushiki chakraborty's Music and us</h1>
+            <p>In a world where technology drives success, Wenidi stands as a beacon of innovation and transformation. We are not just consultants, we are your partners in reimagining the future of your business
+            Our expertise extends across a wide spectrum of cutting-edge technologies. We believe in crafting tailored strategies that go beyond mere optimization. We strive to make your business processes not</p>
+            <button type="button">Read More</button>
+            </div>
+            </div>
+        </div>
         </div>
       </div>
       <div className="formInfoData" style={{paddingBottom:40}}>
