@@ -354,3 +354,39 @@
 .videoPlayNew img{
 max-width:800px;
 }
+.innerContentBnr.home{
+  margin-top:200px;
+}
+.innerContentBnr.home h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 68px;
+}
+.innerContentBnr.home p{
+  color:#fff;
+  text-align:center;
+}
+.innerContentBnr.home button{
+  background:none;
+  color:#fff;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:600;
+  position: relative;
+  border:none;
+  font-size:20px;
+  margin-top:30px;
+}
+.innerContentBnr.home button:after{
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 4px;
+  background: #e6bb35;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
