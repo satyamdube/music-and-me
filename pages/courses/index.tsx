@@ -12,6 +12,7 @@ import slide1 from "@/public/Assets/pages/slide1.png";
 import slide2 from "@/public/Assets/pages/slide2.png";
 import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
+import SliderTest from "../testSlider";
 
 export default function Course() {
 
@@ -90,6 +91,12 @@ export default function Course() {
                <h3>Our class</h3>
                <h2>what our students say</h2>
                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div className="sliderTest">
+                <SliderTest/>
+                <div className="viewAllInfo">
+                  <button>View all</button>
+                </div>
             </div>
          </div>
       </div>
