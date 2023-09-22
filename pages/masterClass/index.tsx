@@ -34,7 +34,7 @@ export default function MasterClass() {
         <div className="centerWrapper">
           <h3>Master Class</h3>
           <h2>Course of masterclass</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer.</p>
           <div className="emailInfoData">
               <div className="leftDataInfo new">
                  <h4>Riyaz masterclass</h4>
@@ -54,7 +54,7 @@ export default function MasterClass() {
                   <li><span className="dotData"></span> 15 Lessons</li>
                   <li><span className="dotData"></span> 100 Members</li>
                </ul>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer.</p>
                <Image src={VideoData} alt="Video"/>
                <h5>WHat you will learn from masterclass</h5>
                <h6>1. For Voice Flexibility</h6>

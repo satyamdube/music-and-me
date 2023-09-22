@@ -37,7 +37,7 @@ export default function Contact() {
         <div className="centerWrapper">
           <h3>Contact Us</h3>
           <h2>Details of contact us</h2>
-          <p>Conatct Us Directly For More Information Or Leave A Message Below And We'll <br/> Get Back To You  ASAP</p>
+          <p>Conatct Us Directly For More Information Or Leave A Message Below And We will <br/> Get Back To You  ASAP</p>
            <div className="emailInfoData">
               <div className="leftDataInfo">
                  <h4>PHONE</h4>

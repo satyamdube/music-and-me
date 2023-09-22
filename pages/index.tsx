@@ -35,7 +35,7 @@ export default function Home() {
         <div className="col-sm-6">
           <div className="absolute-content">
             <h2>About Us</h2>
-            <h1>Welcome to kaushiki chakraborty's Music and us</h1>
+            <h1>Welcome to kaushiki chakraborty Music and us</h1>
             <p>In a world where technology drives success, Wenidi stands as a beacon of innovation and transformation. We are not just consultants, we are your partners in reimagining the future of your business
             Our expertise extends across a wide spectrum of cutting-edge technologies. We believe in crafting tailored strategies that go beyond mere optimization. We strive to make your business processes not</p>
             <button type="button">Read More</button>
