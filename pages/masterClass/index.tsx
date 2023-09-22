@@ -38,39 +38,19 @@ export default function MasterClass() {
       <div className="formInfoData">
         <div className="centerWrapper">
           <h3>Master Class</h3>
-          <h2>Kaushiki chakraborty's Music</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-      </div>
-      <div className="courceBanner">
-         <div className="centerWrapper">
-            <div className="innerContentCource">
-               <h3>Latest videos</h3>
-               <h2>youtube feed</h2>
-               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            </div>
-            <div className="sliderTest">
-                <SliderTestVideo/>
-                <div className="viewAllInfo">
-                  <button>View all</button>
-                </div>
-            </div>
-         </div>
-      </div>
-      <br/><br/><br/>
-      <div className="slideDataInfoBottom">
-         <div className="leftInfoImgData">
-            <Image src={slide1} alt="Slide"/>
-         </div>
-         <div className="leftInfoImgData">
-            <Image src={slide2} alt="Slide"/>
-         </div>
-         <div className="leftInfoImgData">
-            <Image src={slide3} alt="Slide"/>
-         </div>
-         <div className="leftInfoImgData">
-            <Image src={slide4} alt="Slide"/>
+          <h2>Course of masterclass</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+          <div className="emailInfoData">
+              <div className="leftDataInfo new">
+                 <h4>Riyaz masterclass</h4>
+              </div>
+              <div className="leftDataInfo hide">
+                 <h4>coming soon...</h4>
+              </div>
+              <div className="leftDataInfo hide">
+                 <h4>coming soon...</h4>
+              </div>
+           </div>
          </div>
       </div>
     </div>
