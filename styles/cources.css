@@ -368,7 +368,7 @@ max-width:800px;
   color:#fff;
   text-align:center;
 }
-.innerContentBnr.home button{
+.innerContentBnr.home button.readmore{
   background:none;
   color:#fff;
   text-align:center;
@@ -379,7 +379,7 @@ max-width:800px;
   font-size:20px;
   margin-top:30px;
 }
-.innerContentBnr.home button:after{
+.innerContentBnr.home button.readmore:after{
   content: "";
   position: absolute;
   width: 68px;
@@ -419,7 +419,7 @@ max-width:800px;
   font-weight:600;
   font-size:16px;
 }
-.absolute-content button{
+.absolute-content button.readmore{
   background:none;
   text-transform:uppercase;
   font-weight:600;
@@ -429,7 +429,7 @@ max-width:800px;
   margin-top:30px;
   color:#000;
 }
-.absolute-content button:after{
+.absolute-content button.readmore:after{
   content: "";
   position: absolute;
   width: 68px;
@@ -518,4 +518,10 @@ max-width:800px;
   top: 67px;
   left: 69px;
   cursor: pointer;
+}
+.sliderDataMain.homeInfo{
+  margin-bottom:5px;
+}
+.bannerDataTop.homeBg ul li button:before{
+  color:#fff;
 }

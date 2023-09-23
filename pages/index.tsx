@@ -13,6 +13,7 @@ import playVid from "@/public/Assets/pages/playVid.png";
 import Slider from "@/Components/Home/Slider";
 import SliderTest from "./testSlider";
 import SliderTestVideo from "./testSliderVideo";
+import SliderTestHome from "./testSliderHome";
 
 export default function Home() {
   return (
@@ -25,9 +26,7 @@ export default function Home() {
             <div className="waves wave-3"></div>
             <Image className="play" src={playVid} alt="Play"/>
           </div>
-           <h1>Learn The Music <br/> From the Masters</h1>
-           <p>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
-           <button type="button">Learn More</button>
+            <SliderTestHome/>
             <div className="bootomArrow">
               <Image src={bottomArrow} alt="Bottom Arrow"/>
             </div>
@@ -45,7 +44,7 @@ export default function Home() {
             <h1>Welcome to kaushiki chakraborty Music and us</h1>
             <p>In a world where technology drives success, Wenidi stands as a beacon of innovation and transformation. We are not just consultants, we are your partners in reimagining the future of your business
             Our expertise extends across a wide spectrum of cutting-edge technologies. We believe in crafting tailored strategies that go beyond mere optimization. We strive to make your business processes not</p>
-            <button type="button">Read More</button>
+            <button className="readmore" type="button">Read More</button>
             </div>
             </div>
         </div>
