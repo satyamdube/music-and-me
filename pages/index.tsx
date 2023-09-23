@@ -9,6 +9,7 @@ import slide4 from "@/public/Assets/pages/slide4.png";
 import music from "@/public/Assets/pages/musicHead.png";
 import CommanSite from "@/Constent/CommanSite";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
+import playVid from "@/public/Assets/pages/playVid.png";
 import Slider from "@/Components/Home/Slider";
 import SliderTest from "./testSlider";
 import SliderTestVideo from "./testSliderVideo";
@@ -16,8 +17,14 @@ import SliderTestVideo from "./testSliderVideo";
 export default function Home() {
   return (
     <div className="outerMainHome">
-       <div className="bannerDataTop">
+       <div className="bannerDataTop homeBg">
         <div className="innerContentBnr home">
+          <div className="cbt-link-waves">
+            <div className="waves wave-1"></div>
+            <div className="waves wave-2"></div>
+            <div className="waves wave-3"></div>
+            <Image className="play" src={playVid} alt="Play"/>
+          </div>
            <h1>Learn The Music <br/> From the Masters</h1>
            <p>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
            <button type="button">Learn More</button>

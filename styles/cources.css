@@ -355,7 +355,7 @@
 max-width:800px;
 }
 .innerContentBnr.home{
-  margin-top:200px;
+  margin-top:420px;
 }
 .innerContentBnr.home h1{
   color: #fff;
@@ -438,4 +438,84 @@ max-width:800px;
   left: 0;
   right: 0;
   bottom: -13px;
+}
+.bannerDataTop.homeBg{
+  background-image: url(/Assets/pages/bnrHome.png);
+  height:895px;
+}
+.cbt-link-waves {
+  height: 200px;
+  left: 50%;
+  position: absolute;
+  top:280px;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  z-index: 2
+}
+
+.cbt-link-waves .waves {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, .2);
+  opacity: 0;
+  border-radius: 320px;
+  background-clip: padding-box;
+  -webkit-animation: waves 3s ease-in-out infinite;
+  animation: waves 3s ease-in-out infinite;
+  top: 0;
+  left: 0
+}
+
+.cbt-link-waves .wave-1 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s
+}
+
+.cbt-link-waves .wave-2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s
+}
+
+.cbt-link-waves .wave-3 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s
+}
+
+@keyframes waves {
+  0% {
+      opacity: 0;
+      transform: scale(.2, .2)
+  }
+
+  50% {
+      opacity: .9
+  }
+
+  100% {
+      opacity: 0;
+      transform: scale(.9, .9)
+  }
+}
+
+@keyframes waves {
+  0% {
+      opacity: 0;
+      transform: scale(.2, .2)
+  }
+
+  50% {
+      opacity: .9
+  }
+
+  100% {
+      opacity: 0;
+      transform: scale(.9, .9)
+  }
+}
+.cbt-link-waves .play {
+  position: absolute;
+  top: 67px;
+  left: 69px;
+  cursor: pointer;
 }
