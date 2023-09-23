@@ -71,6 +71,7 @@
 }
 .logoInfo img{
   max-width:120px;
+  height:auto;
 }
 .menuRight{
   display:flex;
