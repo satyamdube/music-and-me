@@ -14,7 +14,7 @@
   display:inline-block;
   position: fixed !important;
   top: 0;
-  z-index: 999;
+  z-index: 9999;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   border: none;

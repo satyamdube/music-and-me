@@ -109,3 +109,33 @@ li{
     color-scheme: dark;
   }
 }
+
+.infoProgram .slick-next{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding: 6px 4px 3px;
+  right:-50px;
+}
+.infoProgram .slick-next::before{
+  font-size:40px;
+  color:#e6bb35;
+}
+.infoProgram .slick-prev{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding: 6px 4px 3px;
+  left:-50px;
+}
+.infoProgram .slick-prev::before{
+  font-size:40px;
+  color:#e6bb35;
+}
+.outerMainHome .formInfoData p{
+  color:#000;
+  font-weight:600;
+}
+.courceBanner.bnrHomeInfo{
+  background-image: url(/Assets/pages/bnrHomeNew.png);
+}

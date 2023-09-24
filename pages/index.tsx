@@ -14,6 +14,8 @@ import Slider from "@/Components/Home/Slider";
 import SliderTest from "./testSlider";
 import SliderTestVideo from "./testSliderVideo";
 import SliderTestHome from "./testSliderHome";
+import SliderTestVideoProgram from "./testSliderVideoProgram";
+import SliderTestVideoCourse from "./testSliderVideoCourse";
 
 export default function Home() {
   return (
@@ -60,15 +62,12 @@ export default function Home() {
       <div>
          <div className="centerWrapper">
             <div className="sliderTest">
-                <SliderTestVideo/>
-                <div className="viewAllInfo">
-                  <button>View all</button>
-                </div>
+                <SliderTestVideoProgram/>
             </div>
          </div>
       </div>
       <br/><br/><br/>
-      <div className="courceBanner">
+      <div className="courceBanner bnrHomeInfo">
          <div className="centerWrapper">
             <div className="innerContentCource">
                <h3>Latest videos</h3>
@@ -83,7 +82,21 @@ export default function Home() {
             </div>
          </div>
       </div>
-      <br/><br/><br/>
+      <div className="formInfoData" style={{paddingBottom:40}}>
+        <div className="centerWrapper">
+          <h3>Our Courses</h3>
+          <h2>Our music Courses</h2>
+          <p style={{margin:0}}>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
+        </div>
+      </div>
+      <div>
+         <div className="centerWrapper">
+            <div className="sliderTest">
+                <SliderTestVideoCourse/>
+            </div>
+         </div>
+      </div>
+      <br/><br/><br/> <br/> <br/> <br/>
       <div className="courceBanner">
          <div className="centerWrapper">
             <div className="innerContentCource">
