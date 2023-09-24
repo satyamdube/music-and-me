@@ -546,4 +546,10 @@ max-width:800px;
   .common-btn.style-two.link{
     margin-top:30px;
   }
+  .bannerDataTop {
+    height: 434px;
+  }
+  .innerContentBnr{
+    margin-top:200px;
+  }
 }
