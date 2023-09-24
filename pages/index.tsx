@@ -59,7 +59,7 @@ export default function Home() {
           <p style={{margin:0}}>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
         </div>
       </div>
-      <div>
+      <div  style={{paddingBottom:100}}>
          <div className="centerWrapper">
             <div className="sliderTest">
                 <SliderTestVideoProgram/>
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
          </div>
       </div>
-      <div className="slideDataInfoBottom">
+      <div className="slideDataInfoBottom"  style={{paddingTop:60}}>
          <div className="leftInfoImgData">
             <Image src={slide1} alt="Slide"/>
          </div>
