@@ -70,30 +70,26 @@ const Header = () => {
               </div>
               {toggle && (
                 <div className="menuRight">
-                  <Link href="/" className="active">
+                  <span className={router.asPath == "/" ? "active" : ""}>
+                  <Link href="/">
                     Home
                   </Link>
+                  </span>
+                  <span className={router.asPath == "/courses" ? "active" : ""}>
+                  <Link href="/courses">Courses</Link>
+                  </span>
+                  <span className={router.asPath == "/surteerth" ? "active" : ""}>
+                  <Link href="/surteerth">Surteerth Academy</Link>
+                  </span>
+                  <span className={router.asPath == "/masterClass" ? "active" : ""}>
+                  <Link href="/masterClass">Masterclass</Link>
+                  </span>
+                  <span className={router.asPath == "/about" ? "active" : ""}>
                   <Link href="/about">About Us</Link>
-                  <div className="ulSubMenuData">
-                    Services
-                    <span>
-                      <Image width={20} src={downArrow} alt="Down Arrow" />
-                    </span>
-                    <ul role="menu" className="sub-menu">
-                      {CommanSite.serviceList.map((item: any, idx: number) => (
-                        <li
-                          key={`${idx}_${Math.random()}`}
-                          className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1310 current_page_item menu-item-1317 current"
-                        >
-                          <Link title="Service Details" href={item.path}>
-                            {item.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <Link href="/services">Services</Link>
+                  </span>
+                  <span className={router.asPath == "/contact" ? "active" : ""}>
                   <Link href="/contact">Contact Us</Link>
+                  </span>
                 </div>
               )}
               <div className="menuMobileView" onClick={handlerToggle}>

@@ -525,3 +525,25 @@ max-width:800px;
 .bannerDataTop.homeBg ul li button:before{
   color:#fff;
 }
+@media screen and (max-width:767px) {
+  .cbt-link-waves{
+    top:230px !important;
+  }
+  .innerContentBnr.home h1{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 39px;
+  }
+  .leftInfoImgData{
+    width:100%;
+    padding:0px 0px 20px;
+  }
+  .slideDataInfoBottom{
+    display: inline-block;
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  .common-btn.style-two.link{
+    margin-top:30px;
+  }
+}

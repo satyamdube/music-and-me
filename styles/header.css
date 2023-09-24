@@ -212,6 +212,7 @@
       display: inline;
   position: absolute;
   right:15px;
+  top:30px;
   }
   .menuMobileView img{
       max-width:45px;
@@ -223,6 +224,7 @@
       margin: 0;
       padding: 10px;
       box-sizing: border-box;
+      color:#000;
   }
   .ulSubMenuData{
     margin-left:10px;
@@ -238,4 +240,14 @@
     top: 0;
   }
 
+}
+
+@media screen and (max-width:767px) {
+  .socialIconInfo{
+    display:none !important;
+  }
+  .bannerDataTop.homeBg{
+     height:100vh !important;
+     background:#000 !important;
+  }
 }
