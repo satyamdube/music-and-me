@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">
               <div className="row justify-content-between align-items-center">
-                <div className="col-lg-4 col-xl-3">
+                <div className="col-lg-4 col-xl-4">
                   <div className="subscribe-title">
                     <h2 className="text-white">Join Our Newsletter</h2>
                   </div>
