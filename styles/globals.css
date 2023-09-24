@@ -139,3 +139,63 @@ li{
 .courceBanner.bnrHomeInfo{
   background-image: url(/Assets/pages/bnrHomeNew.png);
 }
+.courcseInfo{
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+}
+.courcseInfoInner{
+  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  padding:0px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #ccc;
+  text-align: center;
+}
+.cntCourses{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  padding:40px 30px 60px;
+  box-sizing: border-box;
+}
+.cntCourses h6{
+  color: #e6bb35;
+  margin:0px 0px 10px;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+.cntCourses h2{
+  font-size:30px;
+  color:#000;
+  font-weight:600;
+  text-transform:uppercase;
+}
+.cntCourses p{
+  font-size:18px;
+  color:#000;
+  font-weight:600;
+  line-height:30px;
+  margin:20px 0px 40px;
+}
+.cntCourses .readMoreInfo{
+  font-weight:700;
+  text-transform:uppercase;
+  color:#000;
+  font-size:20px;
+  background:none;
+  border:none;
+  position: relative;
+}
+.cntCourses .readMoreInfo:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background: #e6bb35;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}

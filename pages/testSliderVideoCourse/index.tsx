@@ -4,10 +4,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import userTest from "@/public/Assets/pages/user1.png";
-import program1 from "@/public/Assets/pages/program1.png";
-import program2 from "@/public/Assets/pages/program2.png";
-import program3 from "@/public/Assets/pages/program3.png";
+import corse1 from "@/public/Assets/pages/corse1.png";
+import corse2 from "@/public/Assets/pages/corse2.png";
+import corse3 from "@/public/Assets/pages/corse3.png";
 import video from "@/public/Assets/pages/video1.png";
 
 export default function SliderTestVideoCourse() {
@@ -50,44 +49,80 @@ export default function SliderTestVideoCourse() {
     <div>
         <Slider className="infoProgram" {...settings}>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program1} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse1} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 1</h6>
+                      <h2>Prarambh</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program2} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse2} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 2</h6>
+                      <h2>Vihaan</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program3} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse3} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 3</h6>
+                      <h2>Prarambh</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program1} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse1} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 1</h6>
+                      <h2>Prarambh</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program2} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse2} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 2</h6>
+                      <h2>Vihaan</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
           <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={program3} alt="Video"/>
+              <div className="courcseInfo">
+                <div className="courcseInfoInner">
+                   <Image className="play" src={corse3} alt="Course"/>
+                    <div className="cntCourses">
+                      <h6>Coueses 3</h6>
+                      <h2>Prarambh</h2>
+                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                      <button className="readMoreInfo">Read More</button>
+                    </div>
                  </div>
               </div>
           </div>
