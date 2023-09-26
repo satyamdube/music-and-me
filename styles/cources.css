@@ -576,3 +576,18 @@ max-width:800px;
   text-align:left;
   margin-bottom:20px;
 }
+.termsAndConditions.listData ul li{
+  list-style:disc;
+}
+.termsAndConditions.listData table{
+  width:100%;
+}
+.termsAndConditions.listData table tr th{
+  text-align:left;
+}
+.termsAndConditions.listData table tr td, .termsAndConditions.listData table tr th{
+  padding:10px;
+  border:1px solid #ccc;
+  text-align:left;
+  vertical-align:top;
+}
