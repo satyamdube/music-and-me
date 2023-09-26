@@ -35,6 +35,14 @@ const CommanSite:{
       name: "Contact Us",
       link: "/contact",
     },
+    {
+      name: "Terms and Conditions",
+      link: "/terms",
+    },
+    {
+      name: "Privacy Policy",
+      link: "/privacy",
+    },
   ],
   ourServiceList: [
     {
