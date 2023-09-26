@@ -553,3 +553,26 @@ max-width:800px;
     margin-top:200px;
   }
 }
+.leftContent h3{
+  text-align:left;
+  font-size:24px;
+  color:#000;
+}
+.termsAndConditions{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+.termsAndConditions p{
+  margin:0px;
+  font-size:16px;
+  text-align:left;
+}
+.termsAndConditions h4{
+  text-align:left;
+  margin-top:20px;
+}
+.termsAndConditions ul li{
+  text-align:left;
+  margin-bottom:20px;
+}
