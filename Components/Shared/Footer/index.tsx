@@ -104,7 +104,7 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-6 col-12">
+              {/* <div className="col-xl-3 col-lg-6 col-12">
                 <div
                   id="nav_menu-2"
                   className="footer-widget widget-wrap widget_nav_menu"
@@ -118,7 +118,7 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xl-3 col-lg-6 col-12">
                 <div
                   id="nav_menu-3"

@@ -450,7 +450,8 @@ max-width:800px;
   top:335px;
   transform: translate(-50%, -50%);
   width: 200px;
-  z-index: 2
+  z-index: 2;
+  display:none;
 }
 
 .cbt-link-waves .waves {

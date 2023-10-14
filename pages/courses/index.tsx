@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,6 +16,15 @@ import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
 
 export default function Course() {
+  const [data, setData] = React.useState([]);
+  React.useEffect(() => {
+    const url = "https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1";
+    fetch(url)
+      .then((response) => response.json())
+      .then((json) => setData(json['results']))
+      .catch((error) => console.log(error));
+  }, []);
+  console.log(data, "Satyam")
 
   return (
     <div className="outerMainAbout">

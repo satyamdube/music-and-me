@@ -2,7 +2,7 @@ const CompanyDetails = {
   mobileNumber: "+91-8591504800",
   email: "support@kaushikismusicandus.com",
   address:
-    "Delhi",
+    "Kolkata",
 };
 
 export default CompanyDetails;
