@@ -530,6 +530,9 @@ max-width:800px;
   .cbt-link-waves{
     top:230px !important;
   }
+  .sliderDataMain.homeInfo{
+    padding-bottom: 100px;
+  }
   .innerContentBnr.home h1{
     font-weight: 700;
     font-size: 29px;
@@ -551,7 +554,7 @@ max-width:800px;
     height: 434px;
   }
   .innerContentBnr{
-    margin-top:200px;
+    margin-top:155px !important;
   }
 }
 .leftContent h3{
@@ -591,4 +594,31 @@ max-width:800px;
   border:1px solid #ccc;
   text-align:left;
   vertical-align:top;
+}
+@media screen and (max-width:767px) {
+  .formInfoData h2{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .formInfoData h3{
+    font-size:34px;
+  }
+  .absolute-content{
+    padding: 40px 15px;
+  }
+  .serviceCard{
+    width:100%;
+  }
+  .emailInfoData{
+    display: inline-block;
+  }
+  .leftDataInfo{
+    padding-bottom: 24px;
+  }
+  .leftDataInfo{
+    width:100%;
+  }
+  .uldataLi ul li{
+    width:100%;
+  }
 }

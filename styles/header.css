@@ -241,13 +241,20 @@
   }
 
 }
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:992px) {
   .socialIconInfo{
     display:none !important;
   }
+  .menuRight a{
+    font-size:12px;
+  }
+}
+@media screen and (max-width:767px) {
   .bannerDataTop.homeBg{
-     height:100vh !important;
+     height:auto !important;
      background:#000 !important;
+  }
+  .menuRight a{
+    font-size:16px;
   }
 }

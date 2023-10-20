@@ -35,6 +35,7 @@ img{
   min-width:410px;
 }
 
+
 .subscribe-form form input::-webkit-input-placeholder {
   font-size: 14px;
   color: #EBEBEB;
@@ -716,4 +717,12 @@ img{
 }
 .mt-60 {
   margin-top: 60px;
+}
+@media screen and (max-width:767px) {
+  .subscribe-form form input{
+    min-width: auto !important;
+  }
+  .copyright-list.text-lg-end{
+    padding-left:0px;
+  }
 }
