@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Image from "next/image";
 import Link from "next/link";
-
 import HomeWhiteAboutIcon from "@/public/Assets/pages/home-white-about.png";
 import Call1Icon from "@/public/Assets/pages/call1.png";
 import Message1Icon from "@/public/Assets/pages/message1.png";
@@ -16,16 +16,24 @@ import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
 
 export default function Course() {
-  const [data, setData] = React.useState([]);
-  React.useEffect(() => {
-    const url = "https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1";
-    fetch(url)
-      .then((response) => response.json())
-      .then((json) => setData(json['results']))
-      .catch((error) => console.log(error));
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Define the API URL
+    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1';
+  
+    // Make the API request
+    axios.get(apiUrl)
+      .then(response => {
+        setData(response.data);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('API request error:', error);
+        setLoading(false);
+      });
   }, []);
-  console.log(data, "Satyam")
-
+  console.log(data, "satyam")
   return (
     <div className="outerMainAbout">
       <div className="bannerDataTop">
@@ -45,6 +53,18 @@ export default function Course() {
         </div>
       </div>
       <div className="formInfoData">
+      {/* <div>
+          <h1>API Integration in React</h1>
+          {loading ? (
+            <p>Loading...</p>
+          ) : (
+            <ul>
+              {data.map((item, index) => (
+                <li key={index}>{item.name}</li>
+              ))}
+            </ul>
+          )}
+        </div> */}
         <div className="centerWrapper">
           <h3>Courses</h3>
           <h2>Courses of music</h2>
