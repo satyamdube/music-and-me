@@ -69,7 +69,7 @@ export default function Course() {
                           <button type="button">Join Now</button>
                           <div className="priceInfo">
                           {item.price?.map((item1,index2)=> {
-                          return<p key="index2"><span>{item1.currency} {item1.rate}</span></p>})}
+                          return<p key="index2"><span>{item1.currency}  {item1.rate}</span></p>})}
                           </div>
                       </div>})}
           </div>

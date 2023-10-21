@@ -259,6 +259,10 @@
   margin:0px;
   display: inline-block;
   padding: 0 10px;
+  border-left:1px solid #fff;
+}
+.formInfoData .serviceCard .priceInfo p:first-child{
+  border:none;
 }
 .courceBanner{
   width:100%;
