@@ -62,13 +62,14 @@ export default function Course() {
           <h2>Courses of music</h2>
           <p>Courses Us Directly For More Information Or Leave A Message Below And We will <br/> Get Back To You  ASAP</p>
           <div className="ourServiceBox">
-          {data1?.data?.map((item,index)=> {
-                  return <div className="serviceCard">
+          {data1?.data?.map((item,index1)=> {
+                  return <div key="index1" className="serviceCard">
                         <h3>{item.name}</h3>
                         <p>{item.description}</p>
                           <button type="button">Join Now</button>
                           <div className="priceInfo">
-                            <p>R 10,000 / $350 plus tax</p>
+                          {item.price?.map((item1,index2)=> {
+                          return<p key="index2"><span>{item1.currency} {item1.rate}</span></p>})}
                           </div>
                       </div>})}
           </div>

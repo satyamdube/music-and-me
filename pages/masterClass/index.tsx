@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import HomeWhiteAboutIcon from "@/public/Assets/pages/home-white-about.png";
 import Call1Icon from "@/public/Assets/pages/call1.png";
 import Message1Icon from "@/public/Assets/pages/message1.png";
@@ -9,9 +8,8 @@ import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import VideoData from "@/public/Assets/pages/videoPlay2.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
-import Head from 'next/head'
+import Head from 'next/head';
 export default function MasterClass() {
-
   return (
     <div className="outerMainAbout">
       <Head>

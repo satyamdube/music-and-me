@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import HomeWhiteAboutIcon from "@/public/Assets/pages/home-white-about.png";
 import Call1Icon from "@/public/Assets/pages/call1.png";
 import Message1Icon from "@/public/Assets/pages/message1.png";
