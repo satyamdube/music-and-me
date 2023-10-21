@@ -16,7 +16,7 @@ import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
 
 export default function Course() {
-  const [data, setData] = useState([]);
+  const [data1, setData] = useState({});
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Define the API URL
@@ -33,7 +33,7 @@ export default function Course() {
         setLoading(false);
       });
   }, []);
-  console.log(data, "satyam")
+  console.log(data1, "satyam")
   return (
     <div className="outerMainAbout">
       <div className="bannerDataTop">
@@ -53,65 +53,20 @@ export default function Course() {
         </div>
       </div>
       <div className="formInfoData">
-      {/* <div>
-          <h1>API Integration in React</h1>
-          {loading ? (
-            <p>Loading...</p>
-          ) : (
-            <ul>
-              {data.map((item, index) => (
-                <li key={index}>{item.name}</li>
-              ))}
-            </ul>
-          )}
-        </div> */}
         <div className="centerWrapper">
           <h3>Courses</h3>
           <h2>Courses of music</h2>
           <p>Courses Us Directly For More Information Or Leave A Message Below And We will <br/> Get Back To You  ASAP</p>
           <div className="ourServiceBox">
-            <div className="serviceCard">
-               <h3>Courses!</h3>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <ul>
-                  <li>100 Members</li>
-                  <li>Beginner</li>
-                  <li>6 Months</li>
-                  <li>Certificate Guarantee</li>
-                </ul>
-                <button type="button">Join Now</button>
-                <div className="priceInfo">
-                  <p>R 10,000 / $350 plus tax</p>
-                </div>
-            </div>
-            <div className="serviceCard">
-               <h3>Courses!</h3>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <ul>
-                  <li>100 Members</li>
-                  <li>Beginner</li>
-                  <li>6 Months</li>
-                  <li>Certificate Guarantee</li>
-                </ul>
-                <button type="button">Join Now</button>
-                <div className="priceInfo">
-                  <p>R 10,000 / $350 plus tax</p>
-                </div>
-            </div>
-            <div className="serviceCard">
-               <h3>Courses!</h3>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <ul>
-                  <li>100 Members</li>
-                  <li>Beginner</li>
-                  <li>6 Months</li>
-                  <li>Certificate Guarantee</li>
-                </ul>
-                <button type="button">Join Now</button>
-                <div className="priceInfo">
-                  <p>R 10,000 / $350 plus tax</p>
-                </div>
-            </div>
+          {data1?.data?.map((item,index)=> {
+                  return <div className="serviceCard">
+                        <h3>{item.name}</h3>
+                        <p>{item.description}</p>
+                          <button type="button">Join Now</button>
+                          <div className="priceInfo">
+                          <p>R 10,000 / $350 plus tax</p>
+                          </div>
+                      </div>})}
           </div>
         </div>
       </div>
