@@ -14,7 +14,7 @@ import slide2 from "@/public/Assets/pages/slide2.png";
 import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
-
+import Head from 'next/head'
 export default function Course() {
   const [data1, setData] = useState({});
   const [loading, setLoading] = useState(true);
@@ -36,6 +36,10 @@ export default function Course() {
   console.log(data1, "satyam")
   return (
     <div className="outerMainAbout">
+      <Head>
+      <title>Courses</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerDataTop">
         <div className="innerContentBnr">
            <h3>Courses</h3>
@@ -64,7 +68,7 @@ export default function Course() {
                         <p>{item.description}</p>
                           <button type="button">Join Now</button>
                           <div className="priceInfo">
-                          <p>R 10,000 / $350 plus tax</p>
+                            <p>R 10,000 / $350 plus tax</p>
                           </div>
                       </div>})}
           </div>

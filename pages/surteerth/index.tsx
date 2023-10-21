@@ -15,11 +15,15 @@ import slide4 from "@/public/Assets/pages/slide4.png";
 import videoPlay from "@/public/Assets/pages/videoPlay.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
-
+import Head from 'next/head'
 export default function Surteerth() {
 
   return (
     <div className="outerMainAbout">
+      <Head>
+      <title>Surteerth Academy</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerDataTop">
         <div className="innerContentBnr">
            <h3>Surteerth Academy</h3>

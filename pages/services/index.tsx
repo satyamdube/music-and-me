@@ -4,10 +4,14 @@ import Link from "next/link";
 import SpRightWhite from "@/public/Assets/pages/sp-right-white.png";
 import CommanSite from "@/Constent/CommanSite";
 import ServiceCard from "@/Components/Services/ServiceCard";
-
+import Head from 'next/head'
 export default function Services() {
   return (
     <div className="outerMainService">
+      <Head>
+      <title>Services</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerData">
         <div className="breadcrumb-area bnrService">
           <div className="container">

@@ -12,11 +12,15 @@ import slide1 from "@/public/Assets/pages/slide1.png";
 import slide2 from "@/public/Assets/pages/slide2.png";
 import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
-
+import Head from 'next/head'
 export default function Contact() {
 
   return (
     <div className="outerMainAbout">
+      <Head>
+      <title>Contact Us</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerDataTop">
         <div className="innerContentBnr">
            <h3>Contact Us</h3>

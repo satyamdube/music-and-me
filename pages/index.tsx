@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Head from 'next/head'
 import ServiceCard from "@/Components/Services/ServiceCard";
 import slide1 from "@/public/Assets/pages/slide1.png";
 import slide2 from "@/public/Assets/pages/slide2.png";
@@ -20,6 +20,10 @@ import SliderTestVideoCourse from "./testSliderVideoCourse";
 export default function Home() {
   return (
     <div className="outerMainHome">
+      <Head>
+      <title>Home</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
        <div className="bannerDataTop homeBg">
         <div className="innerContentBnr home">
           <div className="cbt-link-waves">

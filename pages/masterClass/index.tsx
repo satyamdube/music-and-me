@@ -9,11 +9,15 @@ import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import VideoData from "@/public/Assets/pages/videoPlay2.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
-
+import Head from 'next/head'
 export default function MasterClass() {
 
   return (
     <div className="outerMainAbout">
+      <Head>
+      <title>Master Class</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerDataTop">
         <div className="innerContentBnr">
            <h3>Master Class</h3>

@@ -14,11 +14,15 @@ import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
-
+import Head from 'next/head'
 export default function Privacy() {
 
   return (
     <div className="outerMainAbout">
+      <Head>
+      <title>Privacy Policy</title>
+      <meta name='description' content='WELCOME TO KAUSHIKI CHAKRABORTY MUSIC AND US' />
+      </Head>
       <div className="bannerDataTop">
         <div className="innerContentBnr">
            <h3>Privacy</h3>
