@@ -36,6 +36,34 @@ export default function Surteerth() {
             </div>
         </div>
       </div>
+      <div className="formInfoData cnt" style={{paddingBottom:0}}>
+        <div className="centerWrapper">
+          <h3>Surteerth Academy Description</h3>
+          <p>Welcome to Surteerth Academy: Your Gateway to Musical Mastery</p>
+          <p>Are you an aspiring musician looking to take your skills to the next level? Look
+          no further! Surteerth Academy is your ultimate destination for musical
+          excellence. We cater to both intermediate and advanced level students,
+          offering a unique hybrid learning experience that combines the best of both
+          worlds.</p>
+          <p>At Surteerth Academy, we believe that music is not just a skill; it is an art that
+          deserves to be nurtured and mastered. To ensure our students receive the best
+          possible education, we have designed a program that seamlessly blends
+          traditional offline learning with the convenience of online classes.</p>
+          <p>One of the highlights of Surteerth Academy is our exclusive offline classes
+          conducted by Smt. Kaushiki Chakraborty and Shri. Parthasarathi Desikan.
+          Their guidance and expertise provide a unique opportunity for students to
+          learn directly from the masters. We recognize that your time is precious, and
+          that is why we complement our monthly in-person classes with online sessions.</p>
+          <p>Embark on your musical journey with Surteerth Academy and experience the
+          magic of learning from the maestros in person. Whether you are an
+          intermediate student looking to refine your skills or an advanced musician
+          seeking further excellence, Surteerth Academy is your opportunity to soar to
+          new musical heights.
+          </p>
+          <p>Do not miss this chance to learn from the best. Enroll now and let the music in
+            your soul find its true voice with Surteerth Academy!</p>
+          </div>
+      </div>
       <div className="formInfoData">
         <div className="centerWrapper">
           <h3>Sur Teerth Academy</h3>

@@ -73,6 +73,9 @@ export default function Contact() {
                       <textarea></textarea>
                    </div>
               </div>
+              <div className="submitDataBtn">
+                  <button type="button">Submit</button>
+              </div>
            </div>
         </div>
       </div>

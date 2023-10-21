@@ -46,13 +46,14 @@ export default function Home() {
             <h1>Welcome to kaushiki chakraborty Music and us</h1>
             <p>In a world where technology drives success, Wenidi stands as a beacon of innovation and transformation. We are not just consultants, we are your partners in reimagining the future of your business
             Our expertise extends across a wide spectrum of cutting-edge technologies. We believe in crafting tailored strategies that go beyond mere optimization. We strive to make your business processes not</p>
-            <button className="readmore" type="button">Read More</button>
+            
+            <Link href="/about"><button className="readmore" type="button">Read More</button></Link>
             </div>
             </div>
         </div>
         </div>
       </div>
-      <div className="formInfoData" style={{paddingBottom:40}}>
+      <div className="formInfoData" style={{paddingBottom:0}}>
         <div className="centerWrapper">
           <h3>Our program</h3>
           <h2>Grade programs</h2>
@@ -82,7 +83,7 @@ export default function Home() {
             </div>
          </div>
       </div>
-      <div className="formInfoData" style={{paddingBottom:40}}>
+      <div className="formInfoData" style={{paddingBottom:0}}>
         <div className="centerWrapper">
           <h3>Our Courses</h3>
           <h2>Our music Courses</h2>
