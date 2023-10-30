@@ -58,15 +58,15 @@ const Header = () => {
                   </span>
               </div>
               <div className="socialIconInfo">
-                <Link href={"/"}>
+                <Link href={"https://m.facebook.com/profile.php?id=100069592724660&_rdr"}>
                   <Image src={facebook} alt="facebook" />
                 </Link>
-                <Link href={"/"}>
+                <Link href={"https://www.instagram.com/kaushikismusicandus"}>
                   <Image src={insta} alt="instagram" />
                 </Link>
-                <Link href={"/"}>
+                {/* <Link href={"https://www.instagram.com/kaushikismusicandus"}>
                   <Image src={wats} alt="whatssapp" />
-                </Link>
+                </Link> */}
               </div>
               {toggle && (
                 <div className="menuRight">

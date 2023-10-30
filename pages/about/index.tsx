@@ -42,40 +42,40 @@ export default function About() {
         <div className="centerWrapper">
           <h3>About Us</h3>
           <h2>Kaushiki’s Music and Us Description</h2>
-          <p>Step into the world of Kaushiki’s Music and Us, where tradition meets technology, and music blossoms in the digital age!</p>
-          <p>Our approach is as dynamic as the melodies of Hindustani Music. We’ve
+          <p>Step into the world of Kaushiki's Music and Us, where tradition meets
+          technology, and music blossoms in the digital age!</p>
+          <p>Our approach is as dynamic as the melodies of Hindustani Music. We've
           seamlessly combined the essence of the Guru-Shishya Parampara with
           cutting-edge technology. The result? An engaging, all-encompassing learning
           journey that unfolds with the elegance of classical music.</p>
-          <p>Imagine this: You are exploring intricate ragas, taals, and rhythms presented in
-            beautifully crafted modules. It is not just learning; it is an art form in itself,
-            much like the music it teaches. With vibrant visuals and interactive tools,
-            you are about to embark on a musical adventure as joyful as a lively tabla beat.
-            </p>
-            <p>But what sets us apart is our belief in practice. Our students do not merely
-            learn; they actively participate. We will assign you practical exercises that inspire
-            you to prepare, record, and share your musical journey. This is where you will
-            discover your unique voice, as beautiful as the melodies you will create</p>
-            <p>What makes Music and Us truly exceptional is that it is a labor of love, crafted
-            by the very hands that have graced the world’s grandest stages. I am deeply
-            honoured to be a part of this journey, serving as a guiding light along this
-            musical path. The dedication to nurturing the next generation of musical
-            talent is woven into every aspect of this platform. It’s not just a website; it
-            stands as a heartfelt offering, a portal into the world of music that holds a
-            sacred place in our hearts.
-            </p>
-            <p>Our promise is simple yet profound - as you delve into our courses, you’ll
-            enhance your singing skills and gain a deep understanding of Indian classical
-            vocal music. Together, we’ll pave a path as solid as a perfectly tuned tanpura
-            string, leading you towards a brighter, more melodious musical future.
-            </p>
-            <p>At Music and Us, happiness is not just a note; it is the entire symphony. Join us
-            on this unique and joyous journey, where tradition and technology harmonize,
-            and every lesson is a celebration of music’s beauty. Together, we’ll create
-            melodies that resonate in your heart forever. Let’s make music, and let’s make
-            it uniquely yours!</p>
-            <p>Sing with us, swing with us, and smile with us at Music and Us. Your musical
-              adventure awaits, and we’re thrilled to create beautiful music together!</p>
+          <p>Imagine this: You're exploring intricate ragas, taals, and rhythms presented in
+          beautifully crafted modules. It's not just learning; it's an art form in itself,
+          much like the music it teaches. With vibrant visuals and interactive tools,
+          you're about to embark on a musical adventure as joyful as a lively tabla beat.</p>
+          <p>But what sets us apart is our belief in practice. Our students don't merely
+          learn; they actively participate. We'll assign you practical exercises that inspire
+          you to prepare, record, and share your musical journey. This is where you'll
+          discover your unique voice, as beautiful as the melodies you'll create.
+          </p>
+          <p>What makes Music and Us truly exceptional is that it's a labor of love, crafted
+          by the very hands that have graced the world's grandest stages. I am deeply
+          honoured to be a part of this journey, serving as a guiding light along this
+          musical path. The dedication to nurturing the next generation of musical
+          talent is woven into every aspect of this platform. It's not just a website; it
+          stands as a heartfelt offering, a portal into the world of music that holds a
+          sacred place in our hearts.
+          </p>
+          <p>Our promise is simple yet profound - as you delve into our courses, you'll
+          enhance your singing skills and gain a deep understanding of Indian classical
+          vocal music. Together, we'll pave a path as solid as a perfectly tuned tanpura
+          string, leading you towards a brighter, more melodious musical future.</p>
+          <p>At Music and Us, happiness isn't just a note; it's the entire symphony. Join us
+          on this unique and joyous journey, where tradition and technology harmonize,
+          and every lesson is a celebration of music's beauty. Together, we'll create
+          melodies that resonate in your heart forever. Let's make music, and let's make
+          it uniquely yours!</p>
+          <p>Sing with us, swing with us, and smile with us at Music and Us. Your musical
+          adventure awaits, and we're thrilled to create beautiful music together!</p>
           </div>
       </div>
       <div className="courceBanner">

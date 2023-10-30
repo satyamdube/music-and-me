@@ -40,7 +40,7 @@ export default function Footer() {
     <footer className="outerMainFooter">
       <div className="footer-area position-relative overflow-hidden">
         <div className="container">
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">
               <div className="row justify-content-between align-items-center">
                 <div className="col-lg-4 col-xl-4">
@@ -73,7 +73,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="widget-section mt-60">
             <div className="row justify-content-between">
               <div className="col-xl-3 col-lg-6 col-12">
