@@ -50,9 +50,9 @@ export default function SliderTestVideo() {
               <div className="sliderDataMain video">
                 <div className="sliderDataMainInner">
                   <Image src={video} alt="Video"/>
-                  <h6>Video 1</h6>
-                  <h4>Raag Bhimpalasi</h4>
-                  <button>Read More</button>
+                  {/* <h6>Video 1</h6> */}
+                  <h4> Uthat Baaj</h4>
+                  {/* <button>Read More</button> */}
                  </div>
               </div>
           </div>
@@ -60,9 +60,9 @@ export default function SliderTestVideo() {
               <div className="sliderDataMain video">
                 <div className="sliderDataMainInner">
                   <Image src={video} alt="Video"/>
-                  <h6>Video 2</h6>
-                  <h4>Raag Bhimpalasi</h4>
-                  <button>Read More</button>
+                  {/* <h6>Video 1</h6> */}
+                  <h4> Riyaz With Rishith Desikan</h4>
+                  {/* <button>Read More</button> */}
                  </div>
               </div>
           </div>
@@ -70,19 +70,9 @@ export default function SliderTestVideo() {
               <div className="sliderDataMain video">
                 <div className="sliderDataMainInner">
                   <Image src={video} alt="Video"/>
-                  <h6>Video 3</h6>
-                  <h4>Raag Bhimpalasi</h4>
-                  <button>Read More</button>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="sliderDataMain video">
-                <div className="sliderDataMainInner">
-                  <Image src={video} alt="Video"/>
-                  <h6>Video 4</h6>
-                  <h4>Raag Bhimpalasi</h4>
-                  <button>Read More</button>
+                  {/* <h6>Video 1</h6> */}
+                  <h4>  Ghazal - Qaraar</h4>
+                  {/* <button>Read More</button> */}
                  </div>
               </div>
           </div>

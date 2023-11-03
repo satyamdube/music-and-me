@@ -42,6 +42,8 @@ export default function Surteerth() {
       </div>
       <div className="formInfoData cnt" style={{paddingBottom:0}}>
         <div className="centerWrapper">
+          <h3>SUR TEERTH ACADEMY</h3>
+          <h2>Music... The art of thinking with <br/> sounds</h2>
           <p>Welcome to Surteerth Academy: Your Gateway to Musical Mastery</p>
           <p>Are you an aspiring musician looking to take your skills to the next level? Look
           no further! Surteerth Academy is your ultimate destination for musical
@@ -187,7 +189,7 @@ export default function Surteerth() {
           <p>Apply Now and let your passion for music flourish at Surteerth!</p>
         </div>
       </div>
-      <div className="formInfoData">
+      {/* <div className="formInfoData">
         <div className="centerWrapper">
           <h3>Sur Teerth Academy</h3>
           <h2>Music... The art of thinking with <br/> sounds</h2>
@@ -195,8 +197,8 @@ export default function Surteerth() {
             <Image src={videoPlay} alt="Video"/>
            </div>
         </div>
-      </div>
-      <div className="formInfoData" style={{paddingTop:0, paddingBottom:40}}>
+      </div> */}
+      <div className="formInfoData" style={{paddingBottom:40}}>
         <div className="centerWrapper">
           <h3>Our program</h3>
           <h2>Grade programs</h2>

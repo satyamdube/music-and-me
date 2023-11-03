@@ -60,8 +60,8 @@ export default function Home() {
       <div className="formInfoData" style={{paddingBottom:0}}>
         <div className="centerWrapper">
           <h3>Our program</h3>
-          <h2>Grade programs</h2>
-          <p style={{margin:0}}>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
+          <h2>Surteerth Academy</h2>
+          <p style={{margin:0}}>Welcome to Surteerth Academy: Your Gateway to Musical Mastery</p>
         </div>
       </div>
       <div  style={{paddingBottom:100}}>

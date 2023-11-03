@@ -85,6 +85,7 @@
   text-align: left;
   line-height: 35px;
   margin-top: 40px;
+  text-align:center;
 }
 .emailInfoData{
   width:100%;
@@ -346,6 +347,7 @@
   color:#000;
   font-size:24px;
   font-weight:600;
+  padding: 30px;
 }
 .sliderDataMain.video .sliderDataMainInner button{
   background:none;
@@ -628,6 +630,7 @@ max-width:800px;
 .formInfoData.cnt p{
   font-size:18px;
   margin:0px 0px;
+  text-align:left;
 }
 .strengthCource{
   width: 100%;
@@ -677,4 +680,7 @@ max-width:800px;
   .videoPlayNew img{
       width:100%;
   }
+}
+.courcseInfoInner img{
+  width:100%;
 }
