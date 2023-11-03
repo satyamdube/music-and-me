@@ -26,14 +26,7 @@ export default function SliderTestHome() {
               <div className="sliderDataMain homeInfo">
                 <h1>Learn The Music <br/> From the Masters</h1>
                 <p>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
-                <button className="readmore" type="button">Learn More</button>
-              </div>
-          </div>
-          <div>
-              <div className="sliderDataMain homeInfo">
-                <h1>Learn The Music <br/> From the Masters</h1>
-                <p>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
-                <button className="readmore" type="button">Learn More</button>
+                {/* <button className="readmore" type="button">Learn More</button> */}
               </div>
           </div>
         </Slider>

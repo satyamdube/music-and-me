@@ -45,7 +45,7 @@ export default function Contact() {
            <div className="emailInfoData">
               <div className="leftDataInfo">
                  <h4>PHONE</h4>
-                 <p><Image src={dotData} alt="Dot"/> (+91) 8591504800</p>
+                 <p><Image src={dotData} alt="Dot"/> (+91) 9147056393</p>
               </div>
               <div className="leftDataInfo">
                  <h4>Email address</h4>
@@ -84,7 +84,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="mapDataInfo">
-        <iframe src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed"> </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689704996!2d88.26495065623695!3d22.535564936867313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1698992076533!5m2!1sen!2sin"> </iframe>
       </div>
       <div className="slideDataInfoBottom">
          <div className="leftInfoImgData">

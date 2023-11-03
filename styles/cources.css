@@ -67,6 +67,7 @@
   line-height:40px;
   letter-spacing:1px;
   text-transform:uppercase;
+  margin-bottom: 46px;
 }
 .formInfoData h2{
   text-align: center;
@@ -81,7 +82,7 @@
 .formInfoData p{
   color: #565656;
   font-size: 23px;
-  text-align: center;
+  text-align: left;
   line-height: 35px;
   margin-top: 40px;
 }
@@ -222,6 +223,7 @@
   line-height:25px;
   margin:30px 0px;
   padding:0px 50px;
+  text-align:center;
 }
 .serviceCard ul{
   list-style-position: inside;
@@ -265,13 +267,15 @@
   border:none;
 }
 .courceBanner{
-  width:100%;
-  background-image: url('/Assets/pages/courceBanner.png');
-  background-repeat:no-repeat;
-  background-size: cover;
-  height:472px;
+  width: 100%;
+  background-image: url(/Assets/pages/courceBanner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 472px;
   position: relative;
-  margin-bottom:450px;
+}
+.outerMainHome .formInfoData p{
+  text-align:center;
 }
 .innerContentCource{
   width:100%;

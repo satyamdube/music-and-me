@@ -41,7 +41,6 @@ export default function About() {
       <div className="formInfoData cnt">
         <div className="centerWrapper">
           <h3>About Us</h3>
-          <h2>Kaushiki’s Music and Us Description</h2>
           <p>Step into the world of Kaushiki's Music and Us, where tradition meets
           technology, and music blossoms in the digital age!</p>
           <p>Our approach is as dynamic as the melodies of Hindustani Music. We've

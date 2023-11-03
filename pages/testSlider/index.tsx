@@ -48,60 +48,53 @@ export default function SliderTest() {
           <div>
               <div className="sliderDataMain">
                 <div className="sliderDataMainInner">
-                  <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                  <p>The topics were very organised so it was
+                  really convenient to practise step by step. Even got more insights on
+                  every topic when practically done. The assignments were really helpful.
+                  It was fun and challenging at the same time which I loved the most in
+                  the entire Prarambh course.</p>
                   <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
+                  <h5>Gauri Phatak</h5>
+                  <h2>Student</h2>
                  </div>
               </div>
           </div>
           <div>
               <div className="sliderDataMain">
                 <div className="sliderDataMainInner">
-                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                 <p>I had done a diploma in vocal, several years ago and
+                  as I have retired, I wanted to get back to music and start all over again.
+                  And I found this course extremely useful and all the lessons were
+                  thoroughly explained. Perfect to start for anyone.</p>
                   <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
+                  <h5>Gita</h5>
+                  <h2>Student</h2>
                  </div>
               </div>
           </div>
           <div>
               <div className="sliderDataMain">
                 <div className="sliderDataMainInner">
-                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                 <p>All the basic things taught by Kaushiki
+                  didi helped me a lot to understand how to start and where to start.</p>
                   <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
+                  <h5>Paramita Bose</h5>
+                  <h2>Student</h2>
                  </div>
               </div>
           </div>
           <div>
               <div className="sliderDataMain">
                 <div className="sliderDataMainInner">
-                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                 <p>he Vihaan course has been extremely
+                satisfying. My daughter has enjoyed the course and has gained so much
+                knowledge from Kaushiki ma'am. We are very happy with the resources
+                and course content. Thank you so much ma'am for all the hard work and
+                efforts you've put in with the initiative of showing the kids a proper path
+                in music.</p>
                   <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="sliderDataMain">
-                <div className="sliderDataMainInner">
-                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-                  <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="sliderDataMain">
-                <div className="sliderDataMainInner">
-                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-                  <Image src={userTest} alt="User"/>
-                  <h5>Satyam Dubey</h5>
-                  <h2>Manager</h2>
+                  <h5>Siyona ghosh</h5>
+                  <h2>Student</h2>
                  </div>
               </div>
           </div>

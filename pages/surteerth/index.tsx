@@ -42,7 +42,6 @@ export default function Surteerth() {
       </div>
       <div className="formInfoData cnt" style={{paddingBottom:0}}>
         <div className="centerWrapper">
-          <h3>Surteerth Academy Description</h3>
           <p>Welcome to Surteerth Academy: Your Gateway to Musical Mastery</p>
           <p>Are you an aspiring musician looking to take your skills to the next level? Look
           no further! Surteerth Academy is your ultimate destination for musical
@@ -186,28 +185,6 @@ export default function Surteerth() {
           music. Join us to embark on a transformative musical journey filled
           with knowledge, creativity, and inspiration</p>
           <p>Apply Now and let your passion for music flourish at Surteerth!</p>
-          <h6>Students Review</h6>
-          <ul>
-            <li><p><b>Gauri Phatak - Student :</b> The topics were very organised so it was
-            really convenient to practise step by step. Even got more insights on
-            every topic when practically done. The assignments were really helpful.
-            It was fun and challenging at the same time which I loved the most in
-            the entire Prarambh course.</p></li>
-            <li>
-              <p><b>Gita - Student :</b> I had done a diploma in vocal, several years ago and
-              as I have retired, I wanted to get back to music and start all over again.
-              And I found this course extremely useful and all the lessons were
-              thoroughly explained. Perfect to start for anyone.</p>
-            </li>
-            <li><p><b>Paramita Bose - Student :</b> All the basic things taught by Kaushiki
-            didi helped me a lot to understand how to start and where to start.</p></li>
-            <li><p><b>Siyona ghosh - Student :</b> The Vihaan course has been extremely
-            satisfying. My daughter has enjoyed the course and has gained so much
-            knowledge from Kaushiki ma'am. We are very happy with the resources
-            and course content. Thank you so much ma'am for all the hard work and
-            efforts you've put in with the initiative of showing the kids a proper path
-            in music.</p></li>
-          </ul>
         </div>
       </div>
       <div className="formInfoData">

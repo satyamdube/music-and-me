@@ -112,6 +112,7 @@ img{
 
 .footer-logo-wrap ul li:last-child {
   margin-bottom: 0;
+  display:flex;
 }
 
 .footer-logo-wrap ul li:hover svg {
@@ -456,6 +457,8 @@ img{
   transition: all .5s;
   position: relative;
   text-decoration:none;
+  display:flex;
+  align-items:center;
 }
 .cursor-follower {
   position: fixed;
