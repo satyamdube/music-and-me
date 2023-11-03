@@ -72,9 +72,9 @@ export default function Surteerth() {
           </p>
           </div>
       </div>
-      <div className="strengthCource">
+      <div className="formInfoData cnt">
         <div className="centerWrapper">
-        <h6>● Surteerth Intermediate Course</h6>
+        <h3>Surteerth Intermediate Course</h3>
           <p>Are you a music enthusiast with a basic understanding of melodies,
           rhythms, and the desire to explore the enchanting world of Indian
           classical music? If so, Surteerth's Intermediate Course is the perfect
@@ -130,7 +130,8 @@ export default function Surteerth() {
           music. Join Surteerth Intermediate Course today and let the magic of
           melodies elevate your musical journey!</p>
           <p>Apply Now and let your passion for music flourish at Surteerth!</p>
-          <h6>● Surteerth Advance Course</h6>
+          <br/><br/><br/>
+          <h3> Surteerth Advance Course</h3>
           <p>Are you ready to take your passion for music to the next level? The
           Surteerth Advance Class Batch is designed to elevate your musical
           journey to new heights. Our comprehensive program is carefully crafted

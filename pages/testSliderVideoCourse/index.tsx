@@ -1,6 +1,7 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Image from "next/image";
 import Link from "next/link";
-import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -10,6 +11,25 @@ import corse3 from "@/public/Assets/pages/corse3.png";
 import video from "@/public/Assets/pages/video1.png";
 
 export default function SliderTestVideoCourse() {
+  const [data1, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Define the API URL
+    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1';
+  
+    // Make the API request
+    axios.get(apiUrl)
+      .then(response => {
+        setData(response.data);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('API request error:', error);
+        setLoading(false);
+      });
+  }, []);
+  console.log(data1, "satyam")
+  
   const settings = {
     dots: true,
     infinite: false,
@@ -51,7 +71,7 @@ export default function SliderTestVideoCourse() {
           <div>
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
-                   <Image className="play" src={corse1} alt="Course"/>
+                    <Image className="play" src={corse1} alt="Course"/>
                     <div className="cntCourses">
                       <h6>Coueses 1</h6>
                       <h2>Prarambh</h2>

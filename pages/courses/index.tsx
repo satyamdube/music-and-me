@@ -33,7 +33,6 @@ export default function Course() {
         setLoading(false);
       });
   }, []);
-  console.log(data1, "satyam")
   return (
     <div className="outerMainAbout">
       <Head>

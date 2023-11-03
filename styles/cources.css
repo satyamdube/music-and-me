@@ -334,6 +334,7 @@
 }
 .sliderDataMain.video .sliderDataMainInner{
   padding:0px;
+  position: relative;
 }
 .sliderDataMain.video .sliderDataMainInner img{
   margin:0px !important;
@@ -683,4 +684,8 @@ max-width:800px;
 }
 .courcseInfoInner img{
   width:100%;
+}
+.sliderDataMainInner .cbt-link-waves{
+  display:block !important;
+  top:100px !important;
 }
