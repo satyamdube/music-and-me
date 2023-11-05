@@ -68,84 +68,20 @@ export default function SliderTestVideoCourse() {
   return (
     <div>
         <Slider className="infoProgram" {...settings}>
-          <div>
+           {data1?.data?.map((item,index1)=> {
+             return <div>
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
                     <Image className="play" src={corse1} alt="Course"/>
                     <div className="cntCourses">
-                      <h6>Coueses 1</h6>
-                      <h2>Prarambh</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
+                      {/* <h6>Coueses 1</h6> */}
+                      <h2>{item.name}</h2>
+                      <p>{item.description}</p>
+                      <Link href="/courses"><button className="readMoreInfo">Read More</button></Link>
                     </div>
                  </div>
               </div>
-          </div>
-          <div>
-              <div className="courcseInfo">
-                <div className="courcseInfoInner">
-                   <Image className="play" src={corse2} alt="Course"/>
-                    <div className="cntCourses">
-                      <h6>Coueses 2</h6>
-                      <h2>Vihaan</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
-                    </div>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="courcseInfo">
-                <div className="courcseInfoInner">
-                   <Image className="play" src={corse3} alt="Course"/>
-                    <div className="cntCourses">
-                      <h6>Coueses 3</h6>
-                      <h2>Prarambh</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
-                    </div>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="courcseInfo">
-                <div className="courcseInfoInner">
-                   <Image className="play" src={corse1} alt="Course"/>
-                    <div className="cntCourses">
-                      <h6>Coueses 1</h6>
-                      <h2>Prarambh</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
-                    </div>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="courcseInfo">
-                <div className="courcseInfoInner">
-                   <Image className="play" src={corse2} alt="Course"/>
-                    <div className="cntCourses">
-                      <h6>Coueses 2</h6>
-                      <h2>Vihaan</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
-                    </div>
-                 </div>
-              </div>
-          </div>
-          <div>
-              <div className="courcseInfo">
-                <div className="courcseInfoInner">
-                   <Image className="play" src={corse3} alt="Course"/>
-                    <div className="cntCourses">
-                      <h6>Coueses 3</h6>
-                      <h2>Prarambh</h2>
-                      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                      <button className="readMoreInfo">Read More</button>
-                    </div>
-                 </div>
-              </div>
-          </div>
+          </div>})}
         </Slider>
       </div>
   );

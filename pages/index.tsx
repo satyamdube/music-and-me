@@ -82,7 +82,7 @@ export default function Home() {
             <div className="sliderTest">
                 <SliderTestVideo/>
                 <div className="viewAllInfo">
-                  <button>View all</button>
+                  <a href="https://www.youtube.com/@kaushikic" target="_blank"><button>View all</button></a>
                 </div>
             </div>
          </div>
@@ -111,9 +111,10 @@ export default function Home() {
             </div>
             <div className="sliderTest">
                 <SliderTest/>
-                <div className="viewAllInfo">
+                {/* <div className="viewAllInfo">
                   <button>View all</button>
-                </div>
+                </div> */}
+                <br/><br/><br/>
             </div>
          </div>
       </div>

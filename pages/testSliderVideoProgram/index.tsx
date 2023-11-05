@@ -49,7 +49,7 @@ export default function SliderTestVideoProgram() {
     <div>
         <Slider className="infoProgram" {...settings}>
           <div>
-              <div className="courcseInfo">
+              <div className="courcseInfo newDesign">
                 <div className="courcseInfoInner">
                    <Image className="play" src={corse1} alt="Course"/>
                     <div className="cntCourses">
@@ -61,7 +61,7 @@ export default function SliderTestVideoProgram() {
               </div>
           </div>
           <div>
-              <div className="courcseInfo">
+              <div className="courcseInfo newDesign">
                 <div className="courcseInfoInner">
                    <Image className="play" src={corse2} alt="Course"/>
                     <div className="cntCourses">

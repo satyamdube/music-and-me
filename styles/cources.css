@@ -67,7 +67,7 @@
   line-height:40px;
   letter-spacing:1px;
   text-transform:uppercase;
-  margin-bottom: 46px;
+  margin-bottom:18px;
 }
 .formInfoData h2{
   text-align: center;
@@ -76,7 +76,7 @@
   font-size:44px;
   line-height:50px;
   letter-spacing:1px;
-  margin:28px 0px;
+  margin:18px 0px;
   text-transform:uppercase;
 }
 .formInfoData p{
@@ -84,7 +84,7 @@
   font-size: 23px;
   text-align: left;
   line-height: 35px;
-  margin-top: 40px;
+  margin-top:12px;
   text-align:center;
 }
 .emailInfoData{
@@ -191,8 +191,9 @@
   padding:0px;
 }
 .leftInfoImgData img{
-  width:100%;
-  height:350px;
+  width: 100%;
+  height: 250px;
+  object-fit:fill;
 }
 .ourServiceBox{
   width: 100%;
@@ -311,7 +312,7 @@
   width:100%;
   display:inline-block;
   text-align:center;
-  margin-top:80px;
+  margin-top:30px;
 }
 .viewAllInfo button{
   position: relative;
@@ -688,4 +689,44 @@ max-width:800px;
 .sliderDataMainInner .cbt-link-waves{
   display:block !important;
   top:100px !important;
+}
+.pastMasterClass{
+  width:100%;
+  display:inline-block;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+.pastMasterClass h3{
+  margin-bottom:50px;
+}
+.pastMasterClass h4{
+  font-size:20px;
+  text-align:center;
+  margin:20px 0px 0px;
+  color:#2bc48a;
+}
+.courcseInfo.newDesign .cntCourses{
+  background-color:#000;
+  min-height:422px;
+}
+.courcseInfo.newDesign .courcseInfoInner img{
+  opacity:0.5;
+}
+.courcseInfo.newDesign .courcseInfoInner{
+  background-color:#000;
+}
+.courcseInfo.newDesign .cntCourses h2{
+  color:#fff;
+  font-size:20px;
+  font-weight:600;
+}
+.courcseInfo.newDesign .cntCourses p{
+  color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    min-height:146px;
+}
+.courcseInfo.newDesign .cntCourses .readMoreInfo{
+  color:#fff;
 }

@@ -55,7 +55,7 @@ export default function Course() {
             </div>
         </div>
       </div>
-      <div className="formInfoData">
+      <div className="formInfoData" style={{paddingBottom:0}}>
         <div className="centerWrapper">
           <h3>Courses</h3>
           <h2>Courses of music</h2>
@@ -83,9 +83,10 @@ export default function Course() {
             </div>
             <div className="sliderTest">
                 <SliderTest/>
-                <div className="viewAllInfo">
+                {/* <div className="viewAllInfo">
                   <button>View all</button>
-                </div>
+                </div> */}
+                <br/><br/><br/>
             </div>
          </div>
       </div>

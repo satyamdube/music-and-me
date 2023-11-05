@@ -8,6 +8,10 @@ import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import VideoData from "@/public/Assets/pages/videoPlay2.png";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
+import slide1 from "@/public/Assets/pages/slide1.png";
+import slide2 from "@/public/Assets/pages/slide2.png";
+import slide3 from "@/public/Assets/pages/slide3.png";
+import slide4 from "@/public/Assets/pages/slide4.png";
 import Head from 'next/head';
 export default function MasterClass() {
   return (
@@ -34,8 +38,8 @@ export default function MasterClass() {
       </div>
       <div className="formInfoData">
         <div className="centerWrapper">
-          <h3>Master Class</h3>
-          <h2>Course of masterclass</h2>
+          <h3>Riyaz masterclass</h3>
+          {/* <h2>Course of masterclass</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer.</p>
           <div className="emailInfoData">
               <div className="leftDataInfo new">
@@ -47,24 +51,46 @@ export default function MasterClass() {
               <div className="leftDataInfo hide">
                  <h4>coming soon...</h4>
               </div>
-           </div>
+           </div> */}
            <div className="infoDataTimingPart">
              <div className="uldataLi">
-               <ul>
+               {/* <ul>
                   <li><span className="dotData"></span> 6 Month</li>
                   <li><span className="dotData"></span> Beginner</li>
                   <li><span className="dotData"></span> 15 Lessons</li>
                   <li><span className="dotData"></span> 100 Members</li>
                </ul>
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer.</p>
-               <Image src={VideoData} alt="Video"/>
-               <h5>WHat you will learn from masterclass</h5>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer.</p> */}
+               <Image style={{margin:0}} src={VideoData} alt="Video"/>
+               <h5>What you will learn from masterclass</h5>
                <h6>1. For Voice Flexibility</h6>
                <h6>2. For Pitching</h6>
                <h6>3. For Sargam/Aakar</h6>
                <hr className="hrdata"/>
                <h2><b>Fees: </b> Rs 3500 (Indian Students) and $200 (Out of India)</h2>
+               <div className="submitDataBtn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSclBIdfP_Glc2MloTiDfpoJVri6yvApMubyjOot0taJR0g0Kg/viewform" target="_blank"><button type="button">Register Now</button></a></div>
              </div>
+           </div>
+           <div className="pastMasterClass">
+              <h3>Past Master Class</h3>
+              <div className="slideDataInfoBottom">
+                <div className="leftInfoImgData">
+                    <Image src={slide1} alt="Slide"/>
+                    <h4>Raaga Series - Raag Bhimpalsi</h4>
+                </div>
+                <div className="leftInfoImgData">
+                    <Image src={slide2} alt="Slide"/>
+                    <h4>Raaga Series - Raag Kedar</h4>
+                </div>
+                <div className="leftInfoImgData">
+                    <Image src={slide3} alt="Slide"/>
+                    <h4>Raaga Series - Raag Bihag</h4>
+                </div>
+                <div className="leftInfoImgData">
+                    <Image src={slide4} alt="Slide"/>
+                    <h4>Thumri MasterClass</h4>
+                </div>
+              </div>
            </div>
          </div>
       </div>
