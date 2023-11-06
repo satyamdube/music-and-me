@@ -2,21 +2,11 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Image from "next/image";
 import Link from "next/link";
-import HomeWhiteAboutIcon from "@/public/Assets/pages/home-white-about.png";
-import Call1Icon from "@/public/Assets/pages/call1.png";
-import Message1Icon from "@/public/Assets/pages/message1.png";
-import HomeIcon from "@/public/Assets/pages/home.png";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
-import dotData from "@/public/Assets/pages/dotData.png";
-import map from "@/public/Assets/pages/map.png";
-import slide1 from "@/public/Assets/pages/slide1.png";
-import slide2 from "@/public/Assets/pages/slide2.png";
-import slide3 from "@/public/Assets/pages/slide3.png";
-import slide4 from "@/public/Assets/pages/slide4.png";
 import SliderTest from "../testSlider";
 import Head from 'next/head'
 export default function Course() {
-  const [data1, setData] = useState({});
+  const [data1, setData] = useState<any>({})
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Define the API URL
@@ -61,16 +51,16 @@ export default function Course() {
           <h2>Courses of music</h2>
           <p>Courses Us Directly For More Information Or Leave A Message Below And We will <br/> Get Back To You  ASAP</p>
           <div className="ourServiceBox">
-          {data1?.data?.map((item,index1)=> {
-                  return <div key="index1" className="serviceCard">
-                        <h3>{item.name}</h3>
-                        <p>{item.description}</p>
-                          <button type="button">Join Now</button>
-                          <div className="priceInfo">
-                          {item.price?.map((item1,index2)=> {
-                          return<p key="index2"><span>{item1.currency}  {item1.rate}</span></p>})}
-                          </div>
-                      </div>})}
+          {data1?.data?.map((item:any,index1:any)=> {
+          return <div key="index1" className="serviceCard">
+          <h3>{item.name}</h3>
+          <p>{item.description}</p>
+            <button type="button">Join Now</button>
+            <div className="priceInfo">
+            {item.price?.map((item1:any,index2:any)=> {
+            return<p key="index2"><span>{item1.currency}  {item1.rate}</span></p>})}
+            </div>
+          </div>})}
           </div>
         </div>
       </div>

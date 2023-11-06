@@ -11,7 +11,7 @@ import corse3 from "@/public/Assets/pages/corse3.png";
 import video from "@/public/Assets/pages/video1.png";
 
 export default function SliderTestVideoCourse() {
-  const [data1, setData] = useState({});
+  const [data1, setData] = useState<any>({});
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Define the API URL
@@ -28,7 +28,6 @@ export default function SliderTestVideoCourse() {
         setLoading(false);
       });
   }, []);
-  console.log(data1, "satyam")
   
   const settings = {
     dots: true,
@@ -68,7 +67,7 @@ export default function SliderTestVideoCourse() {
   return (
     <div>
         <Slider className="infoProgram" {...settings}>
-           {data1?.data?.map((item,index1)=> {
+           {data1?.data?.map((item:any,index1:any)=> {
              return <div>
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
