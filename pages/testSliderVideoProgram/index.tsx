@@ -6,9 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import corse1 from "@/public/Assets/pages/corse1.png";
 import corse2 from "@/public/Assets/pages/corse2.png";
-import corse3 from "@/public/Assets/pages/corse3.png";
-import video from "@/public/Assets/pages/video1.png";
-
 export default function SliderTestVideoProgram() {
   const settings = {
     dots: true,

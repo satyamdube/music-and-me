@@ -68,12 +68,11 @@ export default function SliderTestVideoCourse() {
     <div>
         <Slider className="infoProgram" {...settings}>
            {data1?.data?.map((item:any,index1:any)=> {
-             return <div>
+             return <div key="index1">
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
                     <Image className="play" src={corse1} alt="Course"/>
-                    <div className="cntCourses">
-                      {/* <h6>Coueses 1</h6> */}
+                    <div className="cntCourses">=
                       <h2>{item.name}</h2>
                       <p>{item.description}</p>
                       <Link href="/courses"><button className="readMoreInfo">Read More</button></Link>
