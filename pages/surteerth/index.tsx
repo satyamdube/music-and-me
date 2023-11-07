@@ -203,15 +203,14 @@ export default function Surteerth() {
         <div className="centerWrapper">
           <h3>Our program</h3>
           <h2>Grade programs</h2>
-          <p style={{margin:0}}>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
-        </div>
+          </div>
       </div>
       <div>
          <div className="centerWrapper">
             <div className="sliderTest">
                 <SliderTestVideo/>
                 <div className="viewAllInfo">
-                  <button>View all</button>
+                   <a href="https://www.youtube.com/@kaushikic" target="_blank"><button>View all</button></a>  
                 </div>
             </div>
          </div>

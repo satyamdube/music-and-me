@@ -15,7 +15,7 @@ export default function SliderTestVideoCourse() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Define the API URL
-    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1';
+    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1&url=1';
   
     // Make the API request
     axios.get(apiUrl)
@@ -28,7 +28,7 @@ export default function SliderTestVideoCourse() {
         setLoading(false);
       });
   }, []);
-  
+  console.log(data1, "data1")
   const settings = {
     dots: true,
     infinite: false,

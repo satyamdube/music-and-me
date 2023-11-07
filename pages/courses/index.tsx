@@ -10,7 +10,7 @@ export default function Course() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Define the API URL
-    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1';
+    const apiUrl = 'https://devapi.kaushikimusicandus.com/public-feed/course?skip=10&take=10&sort=name&sortOrder=-1&url=1';
   
     // Make the API request
     axios.get(apiUrl)
@@ -23,6 +23,7 @@ export default function Course() {
         setLoading(false);
       });
   }, []);
+  console.log(data1, "data1")
   return (
     <div className="outerMainAbout">
       <Head>
@@ -69,8 +70,7 @@ export default function Course() {
             <div className="innerContentCource">
                <h3>Our class</h3>
                <h2>what our students say</h2>
-               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            </div>
+              </div>
             <div className="sliderTest">
                 <SliderTest/>
                 {/* <div className="viewAllInfo">

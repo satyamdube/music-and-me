@@ -64,7 +64,7 @@ export default function Home() {
           <p style={{margin:0}}>Welcome to Surteerth Academy: Your Gateway to Musical Mastery</p>
         </div>
       </div>
-      <div  style={{paddingBottom:100}}>
+      <div  style={{paddingBottom:0}}>
          <div className="centerWrapper">
             <div className="sliderTest">
                 <SliderTestVideoProgram/>
@@ -76,9 +76,7 @@ export default function Home() {
          <div className="centerWrapper">
             <div className="innerContentCource">
                <h3>Latest videos</h3>
-               <h2>youtube feed</h2>
-               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            </div>
+               <h2>youtube feed</h2></div>
             <div className="sliderTest">
                 <SliderTestVideo/>
                 <div className="viewAllInfo">
@@ -105,8 +103,7 @@ export default function Home() {
             <div className="innerContentCource">
                <h3>Our class</h3>
                <h2>what our students say</h2>
-               <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br/>  Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            </div>
+               </div>
             <div className="sliderTest">
                 <SliderTest/>
                 {/* <div className="viewAllInfo">

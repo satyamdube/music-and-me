@@ -87,7 +87,7 @@ export default function About() {
             <div className="sliderTest">
                 <SliderTestVideo/>
                 <div className="viewAllInfo">
-                  <button>View all</button>
+                   <a href="https://www.youtube.com/@kaushikic" target="_blank"><button>View all</button></a>
                 </div>
             </div>
          </div>

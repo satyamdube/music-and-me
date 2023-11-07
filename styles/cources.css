@@ -707,10 +707,12 @@ max-width:800px;
 }
 .courcseInfo.newDesign .cntCourses{
   background-color:#000;
-  min-height:422px;
+  min-height: 370px;
+  padding-bottom: 0;
 }
 .courcseInfo.newDesign .courcseInfoInner img{
   opacity:0.5;
+  max-height:340px;
 }
 .courcseInfo.newDesign .courcseInfoInner{
   background-color:#000;
