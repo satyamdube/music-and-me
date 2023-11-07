@@ -90,9 +90,7 @@ export default function Home() {
       <div className="formInfoData" style={{paddingBottom:0}}>
         <div className="centerWrapper">
           <h3>Our Courses</h3>
-          <h2>Our music Courses</h2>
-          <p style={{margin:0}}>In publishing and graphic design, Lorem ipsum <br/> In publishing and graphic design, Lorem ipsum</p>
-        </div>
+          <h2>Our music Courses</h2></div>
       </div>
       <div>
          <div className="centerWrapper">
