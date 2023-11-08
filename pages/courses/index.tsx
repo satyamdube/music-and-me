@@ -55,7 +55,7 @@ export default function Course() {
           {data1?.data?.map((item:any,index1:any)=> {
           return <div key="index1" className="serviceCard">
           <h3>{item.name}</h3>
-          <p>{item.description}</p>
+           <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
             <button type="button">Join Now</button>
             <div className="priceInfo">
             {item.price?.map((item1:any,index2:any)=> {
