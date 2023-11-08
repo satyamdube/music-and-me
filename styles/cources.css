@@ -19,6 +19,9 @@
   height:567px;
   position: relative;
 }
+.bannerDataTop.piano{
+  background-image: url('/Assets/pages/piano.jpg');
+}
 .innerContentBnr{
   width:100%;
   display:inline-block;
@@ -270,14 +273,17 @@
 }
 .courceBanner{
   width: 100%;
-  background-image: url(/Assets/pages/courceBanner.png);
+  background-image: url(/Assets/pages/gitarNew.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 472px;
   position: relative;
 }
 .outerMainHome .formInfoData p{
   text-align:center;
+}
+.outerInfoCnt img{
+  height:100%;
 }
 .innerContentCource{
   width:100%;

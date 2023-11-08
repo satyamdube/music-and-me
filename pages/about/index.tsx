@@ -7,10 +7,10 @@ import HomeIcon from "@/public/Assets/pages/home.png";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import dotData from "@/public/Assets/pages/dotData.png";
 import map from "@/public/Assets/pages/map.png";
-import slide1 from "@/public/Assets/pages/slide1.png";
-import slide2 from "@/public/Assets/pages/slide2.png";
-import slide3 from "@/public/Assets/pages/slide3.png";
-import slide4 from "@/public/Assets/pages/slide4.png";
+import slide1 from "@/public/Assets/pages/footerTop1.jpg";
+import slide2 from "@/public/Assets/pages/footerTop2.jpg";
+import slide3 from "@/public/Assets/pages/footerTop3.jpg";
+import slide4 from "@/public/Assets/pages/footerTop4.jpg";
 import SliderTest from "../testSlider";
 import SliderTestVideo from "../testSliderVideo";
 import Head from 'next/head'

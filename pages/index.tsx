@@ -6,7 +6,7 @@ import slide1 from "@/public/Assets/pages/slide1.png";
 import slide2 from "@/public/Assets/pages/slide2.png";
 import slide3 from "@/public/Assets/pages/slide3.png";
 import slide4 from "@/public/Assets/pages/slide4.png";
-import music from "@/public/Assets/pages/musicHead.png";
+import music from "@/public/Assets/pages/about-min.png";
 import CommanSite from "@/Constent/CommanSite";
 import bottomArrow from "@/public/Assets/pages/bottomArrow.png";
 import playVid from "@/public/Assets/pages/playVid.png";

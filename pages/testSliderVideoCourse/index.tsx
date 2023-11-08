@@ -71,12 +71,10 @@ export default function SliderTestVideoCourse() {
              return <div key="index1">
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
-                  {item.resources?.map((item1:any,index2:any)=> {
-                    console.log(item1.url, "item1.url")
-                   return<div key="index2"><img className="play" src={item1?.url}/></div>})}
-                    <div className="cntCourses">
+                    <Image className="play" src={corse1} alt="Course"/>
+                    <div className="cntCourses">=
                       <h2>{item.name}</h2>
-                      <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
+                      <p>{item.description}</p>
                       <Link href="/courses"><button className="readMoreInfo">Read More</button></Link>
                     </div>
                  </div>
