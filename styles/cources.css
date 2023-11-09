@@ -20,7 +20,7 @@
   position: relative;
 }
 .bannerDataTop.piano{
-  background-image: url('/Assets/pages/piano.jpg');
+  background-image: url(https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/surteerth_header.jpg);
 }
 .innerContentBnr{
   width:100%;
@@ -273,7 +273,7 @@
 }
 .courceBanner{
   width: 100%;
-  background-image: url(/Assets/pages/gitarNew.jpg);
+  background-image: url(https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/studentSays_back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 472px;

@@ -42,7 +42,7 @@ export default function Home() {
         <div className="centerWrapper">
         <div className="row">
         <div className="col-sm-6">
-           <Image src={music} alt="Music"/>
+           <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/about_us_image.png" alt="Music"/>
         </div>
         <div className="col-sm-6">
           <div className="absolute-content">
@@ -115,16 +115,16 @@ export default function Home() {
       </div>
       <div className="slideDataInfoBottom"  style={{paddingTop:60}}>
          <div className="leftInfoImgData">
-            <Image src={slide1} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_1.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide2} alt="Slide"/>
+             <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_2.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide3} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_3.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide4} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_4.jpg" alt="Slide"/>
          </div>
       </div>
     </div>

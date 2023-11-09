@@ -76,19 +76,19 @@ export default function MasterClass() {
               <h3>Past Masterclass</h3>
               <div className="slideDataInfoBottom">
                 <div className="leftInfoImgData">
-                    <Image src={slide1} alt="Slide"/>
+                    <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/past_masterclass_2.jpg" alt="Slide"/>
                     <h4>Raaga Series - Raag Bhimpalsi</h4>
                 </div>
                 <div className="leftInfoImgData">
-                    <Image src={slide2} alt="Slide"/>
+                     <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/past_masterclass_1.jpg" alt="Slide"/>
                     <h4>Raaga Series - Raag Kedar</h4>
                 </div>
                 <div className="leftInfoImgData">
-                    <Image src={slide3} alt="Slide"/>
+                    <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/past_masterclass_3.jpg" alt="Slide"/>
                     <h4>Raaga Series - Raag Bihag</h4>
                 </div>
                 <div className="leftInfoImgData">
-                    <Image src={slide4} alt="Slide"/>
+                    <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/past_masterclass_4.jpg" alt="Slide"/>
                     <h4>Thumri MasterClass</h4>
                 </div>
               </div>

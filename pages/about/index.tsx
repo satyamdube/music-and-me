@@ -95,16 +95,16 @@ export default function About() {
       <br/><br/><br/>
       <div className="slideDataInfoBottom">
          <div className="leftInfoImgData">
-            <Image src={slide1} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_1.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide2} alt="Slide"/>
+             <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_2.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide3} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_3.jpg" alt="Slide"/>
          </div>
          <div className="leftInfoImgData">
-            <Image src={slide4} alt="Slide"/>
+            <img src="https://mus-dev-assets.s3.ap-south-1.amazonaws.com/Website/dashboard_4.jpg" alt="Slide"/>
          </div>
       </div>
     </div>
