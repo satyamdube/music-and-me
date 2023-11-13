@@ -72,7 +72,6 @@ export default function SliderTestVideoCourse() {
               <div className="courcseInfo">
                 <div className="courcseInfoInner">
                   {item.resources?.map((item1:any,index2:any)=> {
-                    console.log(item1.url, "item1.url")
                    return<div key="index2"><img className="play" src={item1?.url}/></div>})}
                     <div className="cntCourses">
                       <h2>{item.name}</h2>

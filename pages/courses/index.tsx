@@ -58,7 +58,7 @@ export default function Course() {
             return<div key="index2"><img className="play" src={item1?.url}/></div>})}
             <h3>{item.name}</h3>
            <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
-            <button type="button">Join Now</button>
+            <link href='https://dev.kaushikimusicandus.com/courses'><button type="button">Join Now</button></link>
             <div className="priceInfo">
             {item.price?.map((item1:any,index2:any)=> {
             return<p key="index2"><span>{item1.currency}  {item1.rate}</span></p>})}

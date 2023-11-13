@@ -54,7 +54,10 @@ const Header = () => {
                   <Link href="/about">About Us</Link>
                   </span>
                   <span className={router.asPath == "/contact" ? "active" : ""}>
-                  <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
+                  </span>
+                  <span className="loginData">
+                    <Link href="http://academy.kaushikismusicandus.com/">Login</Link>
                   </span>
               </div>
               <div className="socialIconInfo">
