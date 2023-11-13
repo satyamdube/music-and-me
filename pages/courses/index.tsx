@@ -53,8 +53,10 @@ export default function Course() {
           <p>Courses Us Directly For More Information Or Leave A Message Below And We will <br/> Get Back To You  ASAP</p>
           <div className="ourServiceBox">
           {data1?.data?.map((item:any,index1:any)=> {
-          return <div key="index1" className="serviceCard">
-          <h3>{item.name}</h3>
+           return <div key="index1" className="serviceCard">
+            {item.resources?.map((item1:any,index2:any)=> {
+            return<div key="index2"><img className="play" src={item1?.url}/></div>})}
+            <h3>{item.name}</h3>
            <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
             <button type="button">Join Now</button>
             <div className="priceInfo">

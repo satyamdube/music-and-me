@@ -208,7 +208,7 @@
 .serviceCard{
   width: 32%;
   background:#e4bc38;
-  padding: 63px 0px;
+  padding:0px 0px 63px;
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 2px 9.8px 9px rgba(0,0,0,.1);
@@ -221,6 +221,7 @@
   font-weight:700;
   font-size:30px;
   text-transform:uppercase;
+  margin-top:30px;
 }
 .formInfoData .serviceCard p{
   color:#fff;
